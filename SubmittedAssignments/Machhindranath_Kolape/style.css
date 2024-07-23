@@ -192,6 +192,13 @@ body {
     width: 81mm;
     height: 43mm
 }
+#person-icon {
+    position: absolute;
+    top: 4mm;
+    left: 4mm;
+    color: white;
+    z-index: 2;
+}
 .party-name {
     position: absolute;
     top: 3mm;
@@ -247,7 +254,7 @@ body {
 }
 .party-email{
     position: absolute;
-    bottom: 5mm;
+    bottom: 12.3mm;
     left: 4mm;
     font-size: 8pt;
     color: gray;
@@ -257,6 +264,21 @@ body {
     color: white;
 } 
 .party-email-lable {
+    margin-left: 2mm;
+    font-weight: bold;
+}
+.party-address{
+    position: absolute;
+    bottom: 0mm;
+    left: 0.5mm;
+    font-size: 8pt;
+    color: gray;
+    z-index: 2;
+}
+#house-icon {
+    color: white;
+} 
+.party-address-lable {
     margin-left: 2mm;
     font-weight: bold;
 }
