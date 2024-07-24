@@ -13,20 +13,21 @@
 body {
     background-color: #ccc; 
 }
+
+/*card 1*/
+
 .card-wrapper {
     position: relative;
     width: 90mm;
     height: 52mm;
     background-color: white;
-    overflow: hidden; 
 }
-
-/*card 2*/
-
 .card1-background {
     height: 52mm;
+    width: 90mm;
     background-image: url("./img/watermark_earth.jpg");
     background-size: cover;
+    border : 1pt ridge #dfdfdf;
 }
 .circular-rectangle {
     position: absolute;
@@ -58,6 +59,13 @@ body {
     height: 10mm;
     background-color: #303743;
     border-top: 4pt solid #D12E21;
+}
+.card1-content {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    width: 90mm;
+    height: 52mm
 }
 .org-logo {
     position: absolute;
@@ -121,7 +129,7 @@ body {
 .card2-background {
     height: 52mm;
     background-color: white;
-    border : 2pt ridge #dfdfdf;
+    border : 1pt ridge #dfdfdf;
 }
 .left-rectangle{
     position: absolute;
@@ -171,7 +179,6 @@ body {
     height: 8mm;
     background-color: #eb1d0d;
     z-index: 2;
-
 }
 .bottom-circular-rectangle-border {
     position: absolute;
