@@ -1,0 +1,290 @@
+/* @font-face {
+    font-family: slogan;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: company;
+    src: url(./Roboto/Roboto-Black.ttf);
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #050a0f;
+}
+.card-wrapper{
+    top: 20mm;
+    height: 250mm;
+    width: 250mm;
+    background-color: #003746;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-background{
+    height: 313mm;
+    width: 110mm;
+    border: 2px solid red;
+    transform: rotate(70deg);
+    margin-top: -1mm;
+    background-color: #fafafa;
+    position: absolute;
+}
+
+                                                /* Content */
+
+.card-wrapper .content{
+    height: 90%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card-wrapper .content .card-wrapper-card-front{
+    height: 40%;
+    width: 80%;
+    margin-left: 20mm;
+    box-shadow: 4mm 3mm 10mm black;
+    background-color: #003746;
+    border-radius: 7mm;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-wrapper .content .card-wrapper-card-front .card1-background{
+    height: 10mm;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .card-wrapper .content .card-wrapper-card-front  .left-big{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 12mm;
+    transform: rotate(40deg);
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-front .left-mid{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 32mm;
+    transform: rotate(40deg);
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-front .left-small{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 53mm;
+    transform: rotate(40deg);
+    background-color:#fc0000;
+  }
+  
+                                                /* Card bottom Side */
+  
+  
+  .card-wrapper .content .card-wrapper-card-front .card-first-second{
+    height: 3mm;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 11mm 3mm 0mm -1mm;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-box1{
+    height: 7mm;
+    width: 13mm;
+    margin: -2mm 0mm 0mm 7mm;
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-box2{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 27mm;
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-box3{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 49mm;
+    background-color:#fc0000;
+  }
+  
+                            /* Middle Part */
+
+  .card-wrapper .content .card-wrapper-card-front .card1-content{
+    /* height: 30mm; */
+    /* border: 2mm solid red; */
+    margin: 18mm 0mm -68mm 2mm;
+    width: 30%;
+    color: white;
+  }
+  .card-wrapper .content .card-wrapper-card-front .party-name{
+    /* height: 50mm; */
+ 
+  }
+  .card-wrapper .content .card-wrapper-card-front .party-job-title{
+  /* height: 50mm; */
+
+  }
+  .card-wrapper .content .card-wrapper-card-front .company{
+    /* height: 50mm; */
+ /
+  }
+  .card-wrapper .content .card-wrapper-card-front .contact{
+    margin: -8mm 0mm -1mm 2mm;
+    color: #ffffff;
+}
+  .card-wrapper .content .card-wrapper-card-front .party-phone{
+    /* height: 30mm; */
+    /* border: 2mm solid red; */
+    /* margin: -7mm 0mm -44mm 0mm;
+    width: 131%;
+    color: white; */
+  }
+  /* .card-wrapper .content .card-wrapper-card-front .party-phone-lable{
+  
+  } */
+  /* .card-wrapper .content .card-wrapper-card-front .party-phone-number{
+  
+  } */
+  
+  .card-wrapper .content .card-wrapper-card-front .party-email{
+    /* border: 2mm solid red; */
+    /* margin: 44mm 0mm -2mm 0mm;
+    width: 200%;
+    color: white; */
+  }
+  .card-wrapper .content .card-wrapper-card-front .party-email-label{
+  
+  }
+  .card-wrapper .content .card-wrapper-card-front .party-email-address{
+    
+  }
+  
+                            /* company logo */
+  .card-wrapper .content .company-content{
+    height: 50mm;
+    /* border: 2mm solid red; */
+    margin: 19mm 0mm 2mm -84mm;
+    width: 200%;
+    display: flex;
+    justify-content: center;
+  }
+  .card-wrapper .content .card-wrapper-card-front .company-content .logo {
+    margin: 13mm 0mm 0mm 0mm;
+  
+  }
+  .card-wrapper .content .card-wrapper-card-front .company-content .logo img{
+    height: 15mm;
+  }
+
+
+  .card-wrapper .content .card-wrapper-card-front .company-content h1{
+    color: #d71920;
+    margin:25mm 0mm 0mm -48mm;
+    font-family: company;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+  }
+  
+  .card-wrapper .content .card-wrapper-card-front .company-content p{
+    margin: 35mm 0mm 0mm -38mm;
+    color: #97a8aa;
+    font-family: slogan;
+    font-weight: lighter;
+    letter-spacing: 1mm;
+  }
+  
+  
+                                                    /* First card bottom */
+  
+  .card-wrapper .content .card-wrapper-card-front .card-first-bottom{
+    height: 10mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-bottom-left-radius: 7mm;
+    border-bottom-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    bottom: 0mm;
+    left: 0mm;
+  }
+  .card-wrapper .content .card-wrapper-card-front .card-first-bottom .square1{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 138mm;
+    transform: rotate(40deg);
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-front .card-first-bottom .square2{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 118mm;
+    transform: rotate(40deg);
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-front .card-first-bottom .square3{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 98mm;
+    transform: rotate(40deg);
+    background-color:#fc0000;
+  }
+  
+  
+  
+  .card-wrapper .content .card-wrapper-card-front .card-bottom-second{
+    height: 3mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    /* border-top-left-radius: 7mm; */
+    /* border-top-right-radius: 7mm; */
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 4mm 0mm 0mm 0mm;
+    left: 0mm;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-square1{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -2mm 0mm 0mm 141mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-square2{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 122mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-front .bottom-square3{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 103mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }

@@ -1,0 +1,285 @@
+/* @font-face {
+    font-family: slogan;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: company;
+    src: url(./Roboto/Roboto-Black.ttf);
+} */
+
+.card-wrapper .content .card-wrapper-card-back{
+    /* margin-top: 40mm; */
+    height: 40%;
+    width: 80%;
+    margin-left: 20mm;
+    /* border: 3px solid red; */
+    box-shadow: 4mm 3mm 10mm black;
+    /* justify-content: space-between; */
+    background-color: #ffffff;
+    border-radius: 7mm;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    /* top: 10mm; */
+}
+
+.card-wrapper .content .card-wrapper-card-back .card2-background{
+    height: 100%;
+    width: 10mm;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-bottom-left-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+  }
+  .card-wrapper .content .card-wrapper-card-back .Right-big{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: 58mm 0mm 0mm 2mm;
+    transform: rotate(-51deg);
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-back .Right-mid{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -48mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color: #ffffff;
+  }
+  .card-wrapper .content .card-wrapper-card-back .Right-small{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -46mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color:#fc0000;
+  }
+  
+                                            /* Card-Back-small-Side left Side*/
+  
+  .card-wrapper .content .card-wrapper-card-back .card-back-second{
+    height: 4mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 10mm 0mm 0mm -67mm;
+    transform: rotate(-90deg);
+  }
+  .card-wrapper .content .card-wrapper-card-back .left1-box1{
+    height: 30mm;
+    width: 12mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 10mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-back .left1-box2{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 26mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-back .left1-box3{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 42mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }
+  .card-wrapper .content .left1-box4{
+    height: 90mm;
+    width: 14mm;
+    /* border: 1pt solid red; */
+    background-color: #00648c;
+    /* border-top-left-radius: 7mm; */
+    /* border-top-right-radius: 7mm; */
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0mm 0mm 0mm 14mm;
+
+  }
+  .card-wrapper .content .left1-box4 i{
+    font-size: 8mm;
+    margin: 31mm 0mm 0mm 4mm;
+  }
+  .card-wrapper .content .left1-box4 .email-icon{
+    margin: -17mm 0mm 0mm 0mm;
+  }
+  .card-wrapper .content .left1-box4 .phone-icon{
+    margin: -27mm 0mm 0mm 0mm;
+  }
+  .card-wrapper .content .left1-box4 .web-icon{
+    margin: -25mm 0mm 0mm 0mm;
+  }
+  .card-wrapper .content .left1-box4 .user-icon{
+    margin: -28mm 0mm -16mm 0mm;
+  }
+
+                /* Bottom back-card-middle-headlight */
+  
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle{
+    /* border: 1pt solid red; */
+    height: 78mm;
+    width: 115mm;
+    margin: 8mm 0mm 0mm 29mm;
+    /* display: flex;  */
+    /* justify-content: space-around; */
+    /* position: relative; */
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .middle1{
+     /* border: 1pt solid yellow;
+     height: 28mm;
+     width: 58mm; */
+     margin: -5mm 0mm -2mm 0mm;
+     /* position: absolute; */
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .name{
+    font-size: 13pt;
+    text-transform: uppercase;
+  }
+
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .name .first-word{
+    color: #ff160d;
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .job-title{
+  
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .company{
+  
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .underline{
+    height: 2mm;
+    width: 30mm;
+    /* border: 1mm solid red; */
+    background-color: red;
+    background-image: linear-gradient(to right, blue,black,orange,red ,blue,black,orange,red);
+  }
+
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info{
+    /* border: 2pt solid yellow; */
+    height: 52mm;
+    width: 65mm;
+    margin: 7mm 0mm 0mm 0mm;
+
+  }
+  .card-wrapper .content .card-wrapper-card-back  .bottom-card-middle .logo2{
+    margin: -12mm 0mm 0mm 0mm;
+  }
+
+  .card-wrapper .content .card-wrapper-card-back  .bottom-card-middle .logo2 img{
+    /* height: 72mm; */
+    /* width: 165px; */
+    /* border: 3px solid; */
+    margin: -60mm 0mm 54mm 70mm;
+    height: 10mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back  .bottom-card-middle .logo3 img{
+    /* height: 72mm; */
+    /* width: 165px; */
+    /* border: 3px solid; */
+    margin: -45mm 0mm 40mm 77mm;
+    height: 30mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-address{
+    padding: 0mm 0mm 4mm 0mm;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-email{
+    padding: 0mm 0mm 4mm 0mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-phone{
+    padding: 4mm 0mm 7mm 0mm;
+  }
+  
+                                /* Card-back-right-side */
+  
+  .card-wrapper .content .card-wrapper-card-back  .card-bottom-first{
+    height: 100%;
+    width: 10mm;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-right-radius: 6mm;
+    border-bottom-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+    margin: 0mm 0mm 0mm 150mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back .right-box1{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: 0mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-back .right-box2{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -14mm 0mm 0mm -1mm;
+    transform: rotate(-51deg);
+    background-color: #ffffff;
+  }
+  .card-wrapper .content .card-wrapper-card-back .right-box3{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -13mm 0mm 0mm -1mm;
+    transform: rotate(-51deg);
+    background-color:#fc0000;
+  }
+  
+  
+  /*Card-back-right-side-small  */
+  
+  .card-wrapper .content .card-wrapper-card-back .card-bottom-second{
+    height: 4mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    /* border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm; */
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+    margin: 73mm 0mm 0mm 67mm;
+    transform: rotate(90deg)
+  }
+  .card-wrapper .content .card-wrapper-card-back .right1-box1{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 10mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+  .card-wrapper .content .card-wrapper-card-back .right1-box2{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 26mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+  .card-wrapper .content .card-wrapper-card-back .right1-box3{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 42mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }
