@@ -1,11 +1,4 @@
-/* @font-face {
-    font-family: slogan;
-    src: url(./Roboto/Roboto-Light.ttf);
-}
-@font-face {
-    font-family: company;
-    src: url(./Roboto/Roboto-Black.ttf);
-} */
+
 
 .card-wrapper .content .card-wrapper-card-back{
     /* margin-top: 40mm; */
@@ -125,7 +118,7 @@
     margin: -25mm 0mm 0mm 0mm;
   }
   .card-wrapper .content .left1-box4 .user-icon{
-    margin: -28mm 0mm -16mm 0mm;
+    margin: -22mm 0mm -16mm 0mm;
   }
 
                 /* Bottom back-card-middle-headlight */
@@ -193,18 +186,33 @@
     margin: -45mm 0mm 40mm 77mm;
     height: 30mm;
   }
-  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-address{
-    padding: 0mm 0mm 4mm 0mm;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .org-address{
+    margin: 5mm 50mm 4mm 0mm;
   }
-  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-email{
-    padding: 0mm 0mm 4mm 0mm;
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .org-email{
+    margin: 0mm 0mm 4mm 0mm;
   }
-  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .contact-info .org-phone{
-    padding: 4mm 0mm 7mm 0mm;
+  .card-wrapper .content .card-wrapper-card-back .bottom-card-middle .org-phone{
+    margin: 9mm 0mm 7mm 0mm;
   }
   
                                 /* Card-back-right-side */
+  
+  .card-wrapper .content .card-wrapper-card-back .card2-content{
+    margin: 20mm 0mm -47mm 96mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back .card2-content .logo2 img{
+    height: 10mm;
+    margin: -5mm 0mm 4mm 1mm;
+  }
+  .card-wrapper .content .card-wrapper-card-back .card2-content .logo3 img{
+    height: 30mm;
+    margin: 13mm 0mm -32mm 8mm;
+  }
+  
+  .card-wrapper .content .card-wrapper-card-back .org-name{
+    margin: 7mm 0mm 0mm 50mm;
+  }
   
   .card-wrapper .content .card-wrapper-card-back  .card-bottom-first{
     height: 100%;

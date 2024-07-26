@@ -1,11 +1,3 @@
-/* @font-face {
-    font-family: slogan;
-    src: url(./Roboto/Roboto-Light.ttf);
-}
-@font-face {
-    font-family: company;
-    src: url(./Roboto/Roboto-Black.ttf);
-} */
 
 body{
     display: flex;
@@ -64,7 +56,7 @@ body{
     overflow: hidden;
     z-index: -1;
   }
-  .card-wrapper .content .card-wrapper-card-front  .left-big{
+  .card-wrapper .content .card-wrapper-card-front .left-big{
     height: 30mm;
     width: 10mm;
     /* border: 5pt solid yellow; */
@@ -92,107 +84,57 @@ body{
                                                 /* Card bottom Side */
   
   
-  .card-wrapper .content .card-wrapper-card-front .card-first-second{
+  .card-wrapper .content .card-wrapper-card-front .card1-content{
     height: 3mm;
     width: 100%;
     background-color: black;
-    position: absolute;
+    /* position: absolute; */
     overflow: hidden;
     z-index: -1;
     margin: 11mm 3mm 0mm -1mm;
   }
-  .card-wrapper .content .card-wrapper-card-front .bottom-box1{
+  .card-wrapper .content .card-wrapper-card-front .party-name{
     height: 7mm;
     width: 13mm;
     margin: -2mm 0mm 0mm 7mm;
     background-color: #00638a;
   }
-  .card-wrapper .content .card-wrapper-card-front .bottom-box2{
+  .card-wrapper .content .card-wrapper-card-front .party-job-title{
     height: 7mm;
     width: 13mm;
     /* border: 5pt solid yellow; */
     margin: -7mm 0mm 0mm 27mm;
     background-color: #fefeff;
   }
-  .card-wrapper .content .card-wrapper-card-front .bottom-box3{
+  .card-wrapper .content .card-wrapper-card-front .company{
     height: 7mm;
     width: 13mm;
     /* border: 5pt solid yellow; */
     margin: -7mm 0mm 0mm 49mm;
     background-color:#fc0000;
   }
-  
-                            /* Middle Part */
 
-  .card-wrapper .content .card-wrapper-card-front .card1-content{
-    /* height: 30mm; */
-    /* border: 2mm solid red; */
-    margin: 18mm 0mm -68mm 2mm;
-    width: 30%;
-    color: white;
-  }
-  .card-wrapper .content .card-wrapper-card-front .party-name{
-    /* height: 50mm; */
- 
-  }
-  .card-wrapper .content .card-wrapper-card-front .party-job-title{
-  /* height: 50mm; */
-
-  }
-  .card-wrapper .content .card-wrapper-card-front .company{
-    /* height: 50mm; */
- /
-  }
-  .card-wrapper .content .card-wrapper-card-front .contact{
-    margin: -8mm 0mm -1mm 2mm;
-    color: #ffffff;
-}
-  .card-wrapper .content .card-wrapper-card-front .party-phone{
-    /* height: 30mm; */
-    /* border: 2mm solid red; */
-    /* margin: -7mm 0mm -44mm 0mm;
-    width: 131%;
-    color: white; */
-  }
-  /* .card-wrapper .content .card-wrapper-card-front .party-phone-lable{
-  
-  } */
-  /* .card-wrapper .content .card-wrapper-card-front .party-phone-number{
-  
-  } */
-  
-  .card-wrapper .content .card-wrapper-card-front .party-email{
-    /* border: 2mm solid red; */
-    /* margin: 44mm 0mm -2mm 0mm;
-    width: 200%;
-    color: white; */
-  }
-  .card-wrapper .content .card-wrapper-card-front .party-email-label{
-  
-  }
-  .card-wrapper .content .card-wrapper-card-front .party-email-address{
-    
-  }
-  
                             /* company logo */
-  .card-wrapper .content .company-content{
+  .card-wrapper .content .card1-content .qr-code{
     height: 50mm;
     /* border: 2mm solid red; */
-    margin: 19mm 0mm 2mm -84mm;
+    margin: 4mm 0mm 2mm -84mm;
     width: 200%;
     display: flex;
     justify-content: center;
+    position: absolute;
   }
   .card-wrapper .content .card-wrapper-card-front .company-content .logo {
     margin: 13mm 0mm 0mm 0mm;
   
   }
-  .card-wrapper .content .card-wrapper-card-front .company-content .logo img{
+  .card-wrapper .content .qr-code img{
     height: 15mm;
+    margin: 13mm 0mm 0mm 0mm;
   }
 
 
-  .card-wrapper .content .card-wrapper-card-front .company-content h1{
+  .card-wrapper .content .card-wrapper-card-front .qr-code h1{
     color: #d71920;
     margin:25mm 0mm 0mm -48mm;
     font-family: company;
@@ -200,7 +142,7 @@ body{
     letter-spacing: 1pt;
   }
   
-  .card-wrapper .content .card-wrapper-card-front .company-content p{
+  .card-wrapper .content .card-wrapper-card-front .qr-code p{
     margin: 35mm 0mm 0mm -38mm;
     color: #97a8aa;
     font-family: slogan;
@@ -254,15 +196,12 @@ body{
   .card-wrapper .content .card-wrapper-card-front .card-bottom-second{
     height: 3mm;
     width: 100%;
-    /* border: 1pt solid red; */
     background-color: black;
-    /* border-top-left-radius: 7mm; */
-    /* border-top-right-radius: 7mm; */
     position: absolute;
     overflow: hidden;
     z-index: -1;
-    margin: 4mm 0mm 0mm 0mm;
-    left: 0mm;
+    margin: 62mm 0mm 0mm 0mm;
+
   }
   .card-wrapper .content .card-wrapper-card-front .bottom-square1{
     height: 7mm;
@@ -288,3 +227,4 @@ body{
     /* transform: rotate(40deg); */
     background-color:#fc0000;
   }
+  
