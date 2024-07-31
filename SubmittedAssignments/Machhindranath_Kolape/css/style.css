@@ -1,14 +1,14 @@
 @font-face {
     font-family: sub;
-    src: url(./font/Raleway-Bold.ttf);
+    src: url(../font/Raleway-Bold.ttf);
 }
 @font-face {
     font-family: cub;
-    src: url(./font/Lato-Bold.ttf);
+    src: url(../font/Lato-Bold.ttf);
 }
 @font-face {
     font-family: other;
-    src: url(./font/Raleway-light.ttf);
+    src: url(../font/Raleway-light.ttf);
 }
 body {
     background-color: #ccc; 
