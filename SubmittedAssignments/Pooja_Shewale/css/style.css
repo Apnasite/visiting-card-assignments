@@ -9,6 +9,8 @@
 .card-wrapper{
  
  margin: auto;
+  overflow: hidden;
+ /* background-color:grey;*/
   left: auto;
   top: auto;
   width: 210mm;
@@ -17,12 +19,12 @@
 }
 
 .card-background{
-   background-color: rgb(206, 204, 204);
+    background-color: rgb(206, 204, 204);
     height: 105mm;
     width: 133%;
     transform: rotate(-17deg);
     position: absolute;
-    left: -7mm;
+    left: -47mm;
     top: 97mm;
 }
 
@@ -44,19 +46,15 @@
 
 .card1-content{
       text-align: center;
-      margin-top: 44mm;
+      margin-top: 18mm;
 
 }
 .logo{
     font-size: 21mm;
     transform: rotate(45deg);
     color: rgb(255, 177, 27);
-    border-radius: -13mm;
-    margin-left: -16mm;
-    margin-left: 14mm;
-    margin-top: -96mm;
-    position: absolute;
-    position: absolute;
+    border-radius: 8mm;
+    margin-bottom: 3mm;
 }
 .left-big {
 
@@ -87,8 +85,8 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: sans-serif;
-    margin-top: -72mm;
-    margin-left: 97mm;
+    margin-top: -2mm;
+    margin-left: 44mm;
     width: 168pt;
     font-size: 1.9em;
     font-weight: bold;
@@ -96,18 +94,17 @@
 
   }
   .party-job-title {
-      font-family: sans-serif;
+   font-family: sans-serif;
     font-optical-sizing: auto;
     font-size: 11pt;
-    margin-top: -177pt;
+    margin-top: 25pt;
     position: absolute;
-    margin-left: 111mm;
-
+    margin-left: 58mm;
   }
 
 .company{
-   top: 102mm;
-    left: 125mm;
+    top: 66mm;
+    left:76mm ;
     position: absolute;
     font-size: 13pt;
     word-spacing: 2mm;
@@ -119,16 +116,18 @@
 
 
 .card2-background{
-   height: 100mm;
+    height:100mm;
     width: 150mm;
-    top: -151mm;
-    left: 30mm;
+    /* border: 1px solid black; */
+	top:38mm;
+	left:30mm;
     border-radius: 5mm;
     overflow: hidden;
     position: relative;
     margin-top: 13mm;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
 .right-big{
     height: 24mm;
@@ -151,10 +150,10 @@
 }
 
 .left-content{
-    top: -137mm;
+    top: 13mm;
     position: absolute;
     overflow: hidden;
-    left: 61mm;
+    left: 2mm;
 }
 
 .right-mid{
@@ -178,11 +177,10 @@
     position: absolute;
 }
 .company2{
-    top: -61mm;
-    left: 111mm;
-    word-spacing: 15px;
+    top: 90mm;
+    left: 50mm;
+    word-spacing: 15px; 
     position: absolute;
-
     
 }
 .org-name
@@ -190,19 +188,18 @@
     line-height: 94%;
     text-align-last: inherit;
     position: relative;
-    top: -703pt;
-    left: 27pt;
+    top: 7pt;
+    left: 3pt;
     font-style: oblique;
     font-size: 14pt;
     color: black;
   }
   
 .org-logo-img {
-   position: relative;
-    top: -511pt;
-    left: -66pt;
+    position: relative;
+    top: 204pt;
+    left: -1pt;
     height: 9mm;
-
   }
   
 .front-content{
@@ -213,10 +210,9 @@ p{
 }
 
 .right-content2{
- position: absolute;
    position: absolute;
-    top: -108mm;
-    left: 134mm;
+    top: 42mm;
+    left: 75mm;
     color: white;
     line-height: 7mm;
     display: flex;
