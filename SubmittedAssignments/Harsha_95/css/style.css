@@ -1,0 +1,383 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.card1-background {
+  /* Customize background styling as needed */
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.left-big {
+  position: absolute;
+  left: -6mm;
+  width: 0;
+  height: 0;
+  border-left: 61.5pt solid transparent;
+  border-right: 69.75pt solid transparent;
+  border-top: 68.25pt solid gray;
+
+}
+
+.img {
+  max-width: 100%;
+}
+
+.clip-path {
+  position: absolute;
+  width: 375pt;
+  height: 375pt;
+  clip-path: polygon(50% 16%, -30% 95%, 125% 100%);
+  left: -188pt;
+  top: -316pt;
+  transform: rotate(-180deg);
+}
+
+.left-mid {
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 85.75pt;
+  border-top: 13pt solid transparent;
+  border-left: 9.75pt solid #ff8b3e;
+  border-bottom: 13pt solid transparent;
+}
+
+.left-small {
+  width: 60.75pt;
+  height: 60.75pt;
+  background: gray;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 20.25pt;
+  left: -14.25pt;
+}
+
+.clip-path1 {
+  position: absolute;
+  left: -1pt;
+  top: -2pt;
+  transform: rotate(-359deg);
+}
+
+.square1 {
+  width: 18pt;
+  height: 18pt;
+  background: #ff8b3e;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -6pt;
+  left: 36.25pt;
+}
+
+.square2 {
+  width: 65.25pt;
+  height: 65.25pt;
+  background: gray;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -8.25pt;
+  left: 70pt;
+}
+
+.clip-path2 {
+  position: absolute;
+  left: 0pt;
+  top: 0pt;
+  transform: rotate(-360deg);
+}
+
+.square3 {
+  width: 18pt;
+  height: 18pt;
+  background: #ff8b3e;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -6pt;
+  left: 150.25pt;
+}
+
+.square4 {
+  width: 25pt;
+  height: 25pt;
+  border: 1px solid #ff8b3e;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 53.75pt;
+  left: 57pt;
+}
+
+.square5 {
+  width: 0;
+  height: 0;
+  border-left: 46px solid transparent;
+  border-right: 53px solid transparent;
+  border-top: 48px solid #faf6f6;
+  position: absolute;
+  left: 141pt;
+  top: -12pt;
+}
+
+.square6 {
+  width: 141.5pt;
+  height: 53.5pt;
+  background: #faf6f6;
+  position: absolute;
+  top: 65pt;
+  left: 182pt;
+  transform: rotate(-45deg);
+}
+
+.card1-content {
+  margin-left: 23px;
+  position: absolute;
+  top: 49%;
+  left: 52%;
+  margin-top: 8pt;
+  transform: translate(-30%, -50%);
+  text-align: start;
+  color: #333;
+}
+
+
+.cm-img {
+  top: -53pt;
+  left: 76pt;
+  position: relative;
+  display: flex;
+
+}
+
+.cmp-img {
+  /* max-width:43%; */
+  width: 39pt;
+  height: auto;
+  display: flex;
+}
+
+
+.company {
+
+  position: relative;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  font-size: 15pt;
+  margin: 0;
+  text-transform: uppercase;
+  left:1pt;
+  top:17pt;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+}
+
+.tagline {
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size:8pt;
+  margin-top: -1pt;
+  position: relative;
+  top:14pt;
+  left:13pt;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  color:#ff8b3e;
+  font-weight:bold;
+
+}
+
+.card2-background {
+  background-color: #fe8432;
+  height: 100%;
+}
+
+.Right-big {
+  width: 0;
+  height: 0;
+  border-left: 36.5pt solid transparent;
+  border-right: 81pt solid transparent;
+  border-top: 73.25pt solid #fd7317;
+  position: absolute;
+  left: -20pt;
+  top: 0pt;
+}
+
+.Right-mid {
+  width: 0;
+  height: 0;
+  border-top: 28.5pt solid transparent;
+  border-left: 27.5pt solid #fd7317;
+  border-bottom: 25.5pt solid transparent;
+  top: 90pt;
+  left: 1pt;
+  position: absolute;
+}
+
+.Right-small {
+  width: 0;
+  height: 0;
+  border-left: 57.75pt solid transparent;
+  border-right: 54pt solid transparent;
+  border-bottom: 71.25pt solid #fd7317;
+  top: 91pt;
+  left: 8pt;
+  position: absolute;
+}
+
+.card2-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  text-align: center;
+  color: black;
+
+}
+
+
+.org-name {
+  font-weight: bold;
+  line-height: 94%;
+  text-align-last: inherit;
+  position: relative;
+  top:-5pt;
+  left: 18pt;
+  text-transform: uppercase;
+  text-align: right;
+  font-family: "Roboto Slab", serif;
+  font-size: 14pt;
+}
+
+.org-email {
+  position: absolute;
+  top: 58pt;
+  left: 49pt;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.org-email::before {
+  position: absolute;
+  top: -62pt;
+  left: 54pt;
+  font-style: normal;
+  font-size: 8pt;
+  content: '■';
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.org-email-address {
+  position: absolute;
+  top: -62pt;
+  left: 64pt;
+  font-size: 9pt;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.org-website::before {
+  position: absolute;
+  top: 12pt;
+  left: 103pt;
+  font-style: normal;
+  font-size: 8pt;
+  content: '■';
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+
+}
+
+.org-website-address {
+  position: absolute;
+  top: 12pt;
+  left: 113pt;
+  font-style: normal;
+  font-size: 9pt;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.org-address::before {
+  position: absolute;
+  top: 28pt;
+  left: 103pt;
+  font-style: normal;
+  font-size: 8pt;
+  content: '■';
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+
+}
+
+.org-address-line-1 {
+  position: absolute;
+  top: 28pt;
+  left: 151px;
+  font-style: normal;
+  font-size: 9pt;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.org-address-city {
+  position: absolute;
+  top: 41pt;
+  left: 151px;
+  font-style: normal;
+  font-size: 9pt;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.org-address-pincode {
+  position: absolute;
+  top: 40pt;
+  left: 201px;
+  font-style: normal;
+  font-size: 10pt;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.org-phone::before {
+  position: absolute;
+  top: 58pt;
+  left: 102.5pt;
+  font-style: normal;
+  font-size: 8pt;
+  content: '■';
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+}
+
+.org-phone-number {
+  position: absolute;
+  top: 56pt;
+  left: 112pt;
+  font-size: 11pt;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
