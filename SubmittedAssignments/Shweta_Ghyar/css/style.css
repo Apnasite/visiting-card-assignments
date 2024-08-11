@@ -1,0 +1,433 @@
+@media all {
+  body {
+    background-color: black;
+  }
+
+  .card-wrapper {
+    margin: auto;
+    /* width: 50%; */
+    /* padding: 26mm; */
+    /* background-image: radial-gradient(gray); */
+  }
+
+  .card-background {
+    background-color: rgb(206, 204, 204);
+    height: 104mm;
+    width: 133%;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: -60mm;
+    top: 78mm;
+  }
+
+  .card-wrapper .card1-background {
+    position: absolute;
+    left: 100mm;
+    top: 50mm;
+    width: 550mm;
+    height: 530mm;
+    background-color: #9f9f9f;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .card-wrapper .card1-background .col {
+    position: absolute;
+    left: 0mm;
+    top: 130mm;
+    background-color: #404040;
+    transform: skewY(-17deg);
+    width: 550mm;
+    height: 260mm;
+    z-index: 3;
+  }
+
+  .card-wrapper .card1-background .box1 {
+    position: relative;
+    left: 105mm;
+    top: 40mm;
+    background-color: #171717;
+    width: 350mm;
+    height: 200mm;
+    box-shadow: -35px 32px 38px -18px rgba(0, 0, 0, 0.45),
+      -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+    z-index: 3;
+  }
+
+  .card-wrapper .card1-background .box2 {
+    position: relative;
+    left: 105mm;
+    top: 90mm;
+    background-color: #171717;
+    width: 350mm;
+    height: 200mm;
+    box-shadow: -35px 32px 38px -18px rgba(0, 0, 0, 0.45),
+      -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+    z-index: 3;
+  }
+
+  .card1-background .tri-left1 {
+    top: 56mm;
+    right: 95mm;
+    width: 0;
+    height: 0;
+    border-left: 118mm solid #fe950e;
+    border-bottom: 184mm solid transparent;
+    position: absolute;
+    rotate: 180deg;
+    z-index: 3;
+    /* transform: skewY(0deg);
+        position: absolute;
+        z-index: 3;
+        border-radius: 200mm; */
+  }
+
+  .card1-background .tri-left2 {
+    top: 40mm;
+    right: 95mm;
+    width: 0;
+    height: 0;
+    border-left: 118mm solid #fe950e;
+    border-top: 184mm solid transparent;
+    position: absolute;
+    rotate: 180deg;
+    z-index: 3;
+  }
+  .card1-background .square {
+    height: 164mm;
+    width: 132mm;
+    top: 58.4mm;
+    right: 128mm;
+    background-color: #171717;
+    border-top: 2.5mm solid #eb9b33;
+    border-right: 2.5mm solid #eb9b33;
+    border-bottom: 2.5mm solid #eb9b33;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .card1-background .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 75.5mm solid transparent;
+    border-right: 52.5mm solid #171717;
+    border-bottom: 82.5mm solid transparent;
+    position: absolute;
+    z-index: 4;
+    top: 62mm;
+    right: 260mm;
+  }
+
+  .card1-background .triangle-border {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 80mm solid transparent;
+    border-right: 55mm solid #eb9b33;
+    border-bottom: 85mm solid transparent;
+    z-index: 3;
+    top: 58mm;
+    right: 260mm;
+  }
+
+  .card2-background .tri-right1 {
+    top: 339mm;
+    left: 205mm;
+    width: 0;
+    height: 0;
+    border-left: 118mm solid #fe950e;
+    border-bottom: 184mm solid transparent;
+    position: absolute;
+    /* rotate: 180deg; */
+    z-index: 3;
+  }
+
+  .card2-background .tri-right2 {
+    top: 356mm;
+    left: 205mm;
+    width: 0;
+    height: 0;
+    border-left: 118mm solid #fe950e;
+    border-top: 184mm solid transparent;
+    position: absolute;
+    /* rotate: 180deg; */
+    z-index: 3;
+  }
+
+  .card2-background .square {
+    height: 164mm;
+    width: 132mm;
+    top: 357.4mm;
+    left: 237mm;
+    background-color: #171717;
+    border-top: 2.5mm solid #eb9b33;
+    border-left: 2.5mm solid #eb9b33;
+    border-bottom: 2.5mm solid #eb9b33;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .card2-background .triangle-left {
+    /* border-right: 50px solid #171717; */
+    /* border-right: 50px solid #171717; */
+    width: 0;
+    height: 0;
+    border-top: 75.5mm solid transparent;
+    border-right: 52.5mm solid #171717;
+    border-bottom: 82.5mm solid transparent;
+    position: absolute;
+    z-index: 4;
+    top: 361mm;
+    left: 369mm;
+    rotate: 180deg;
+  }
+
+  .card2-background .triangle-border {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 80mm solid transparent;
+    border-right: 55mm solid #eb9b33;
+    border-bottom: 85mm solid transparent;
+    z-index: 3;
+    top: 357mm;
+    left: 369mm;
+    rotate: 180deg;
+  }
+
+  body .card-wrapper .card1-content {
+    position: absolute;
+    left: 100mm;
+    top: 50mm;
+    width: 100%;
+    height: 35mm;
+    z-index: 2;
+  }
+
+  .card-wrapper .card-content {
+    top: 17.5mm;
+    right: 15mm;
+    bottom: 15mm;
+    left: 17mm;
+    position: absolute;
+  }
+
+  .qr-code {
+    position: absolute;
+    z-index: 9;
+    left: 135mm;
+    top: 50mm;
+    background-color: white;
+  }
+
+  .party-name {
+    position: absolute;
+    left: 110mm;
+    top: 118mm;
+    color: white;
+    font-size: 52pt;
+    z-index: 4;
+    /* font-family: 'Helvetica', sans-serif; */
+    top: 420mm;
+    left: 266mm;
+    font-family: sans-serif;
+    letter-spacing: 0.5mm;
+  }
+
+  .party-job-title {
+    position: absolute;
+    left: 266mm;
+    top: 443mm;
+    color: white;
+    font-size: 23pt;
+    z-index: 4;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+  }
+
+  .logo1 {
+    position: absolute;
+    z-index: 9;
+    left: 155mm;
+    top: 172mm;
+  }
+
+  .company {
+    position: absolute;
+    left: 318mm;
+    top: 443mm;
+    color: white;
+    font-size: 23pt;
+    z-index: 4;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+  }
+
+  .slogantop {
+    position: absolute;
+    left: 125mm;
+    top: 215mm;
+    color: rgb(242, 145, 1);
+    font-size: 35pt;
+    z-index: 9;
+    font-family: "Helvetica", sans-serif;
+  }
+
+  .party-phone {
+    position: absolute;
+    left: 414mm;
+    top: 434mm;
+    width: 135mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 26pt;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    z-index: 4;
+    font-weight: bold;
+  }
+
+  .party-address {
+    position: absolute;
+    left: 414mm;
+    top: 420mm;
+    width: 180mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 26pt;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    z-index: 4;
+    font-weight: bold;
+  }
+
+  .party-address-location {
+    padding-left: 11pt;
+  }
+
+  .party-email {
+    position: absolute;
+    left: 414mm;
+    top: 448mm;
+    width: 180mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 26pt;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    z-index: 4;
+    font-weight: bold;
+  }
+
+  .party-website {
+    position: absolute;
+    left: 414mm;
+    top: 462mm;
+    width: 136mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 26pt;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    z-index: 4;
+    font-weight: bold;
+  }
+
+  .party-phone-lable {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+    font-weight: bold;
+  }
+
+  .party-email-lable {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+    font-weight: bold;
+  }
+
+  .party-email-address {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    font-weight: bold;
+  }
+
+  .org-logo {
+    position: absolute;
+    z-index: 4;
+    left: 286mm;
+    top: 111mm;
+  }
+
+  .org-logo img {
+    height: 24mm;
+    width: auto;
+  }
+
+  .org-name {
+    position: absolute;
+    left: 308mm;
+    top: 134mm;
+    color: white;
+    font-size: 52pt;
+    z-index: 4;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5mm;
+  }
+  .org-address {
+    position: absolute;
+    left: 128mm;
+    top: 144mm;
+    color: white;
+    font-size: 26pt;
+    z-index: 9;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    width: 122mm;
+    text-align: start;
+  }
+
+  .org-email {
+    position: absolute;
+    top: 100mm;
+    left: 127mm;
+    font-style: normal;
+    font-size: 26pt;
+    color: white;
+    z-index: 9;
+    font-weight: bold;
+  }
+
+  .org-phone {
+    position: relative;
+    top: 114mm;
+    left: 127mm;
+    font-style: normal;
+    font-size: 26pt;
+    color: white;
+    z-index: 9;
+    font-weight: bold;
+  }
+
+  .org-website {
+    position: absolute;
+    top: 128mm;
+    left: 127mm;
+    font-style: normal;
+    font-size: 26pt;
+    color: white;
+    z-index: 9;
+    font-weight: bold;
+  }
+}
