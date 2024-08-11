@@ -1,0 +1,334 @@
+.card-wrapper {
+    position: relative;
+    height: 50.8mm;
+    width: 88.8mm;
+    border: 1px solid rgb(114, 112, 105);
+    border-radius: 6px;
+    overflow: hidden;
+    /* box-shadow: 1mm 1mm 1mm; */
+}
+.card1-background {
+    background-color: rgb(248 234 210);
+    height: 50.8mm;
+    width: 88.8mm;
+    /* top: 10mm;
+    left: 10mm; */
+}
+ .rect1-left {
+    position: absolute;
+    height: 45mm;
+    width: 33.5mm;
+    left: -2mm;
+    top: -4mm;
+    background-color: rgb(196, 51, 94);
+    transform: rotate(17deg) skew(17deg);
+}
+.rect2-left {
+position: absolute;
+height: 33mm;
+width: 46.5mm;
+top: 8mm;
+left: -13mm;
+background-color: rgb(243, 109, 20);
+transform: rotate(26deg) skew(26deg);
+}
+.rect3-left {
+    position: absolute;
+    height: 34mm;
+    width: 7mm;
+    top: 18.8mm;
+    left: 30.5mm;
+    background-color: rgb(255, 150, 51);
+    transform: rotate(22deg) skew(22deg);
+}
+.rect4-left {
+    position: absolute;
+    height: 34mm;
+    width: 8mm;
+    top: 23.8mm;
+    left: 0.6mm;
+    background-color: rgb(255, 150, 51);
+    transform: rotate(-14deg) skew(53deg);
+}
+.tri1-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 29pt solid #383030;
+    border-right: 68pt solid transparent;
+    border-top: 118.1pt solid transparent; 
+}
+.company-logo img {
+    position: absolute;
+    height: 40mm;
+    width: 44mm;
+    left: 38mm;
+    top: 6mm;
+}
+/* .logo img {
+    position: absolute;
+    top: 23mm;
+    left: 2mm;
+    right: 0mm;
+    height: 8mm;
+    width: 28mm;
+} */
+ /* .card1-content {
+    position: absolute;
+    top: 26mm;
+    left: 20mm;
+    right: 0mm;
+    text-align: start;
+ }
+ .party-name {
+    position: absolute;
+    font-family: "PT Serif", serif;
+    font-weight: bolder;
+    font-style: normal;
+    height: 0pt;
+    width: 125pt;
+    font-size: 15pt;
+    margin-top: -59pt;
+    margin-left: 53pt;
+}
+ .party-job-title
+  {
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 10pt;
+    font-weight: bolder;
+    margin-top: -33pt;
+    margin-left: 75pt;
+}
+  .company
+  {
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 12pt;
+    font-weight: bolder;
+    margin-top: 1pt;
+    margin-left: 82pt;
+}
+.party-phone {
+    position: absolute;
+    height: 10mm;
+    width: 70mm;
+    top: 30mm;
+    left: 11mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 9pt;
+}
+.party-phone-img img {
+    position: absolute;
+    height: 4.5mm;
+    width: 4.5mm;
+    top: 31mm;
+    left: 31.9mm;
+}
+.party-email {
+    position: absolute;
+    height: 20pt;
+    width: 100mm;
+    top: 41mm;
+    left: -1mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 9pt;
+}
+.party-email-img img {
+    position: absolute;
+    height: 5mm;
+    width: 5mm;
+    top: 41mm;
+    left: 31.7mm;
+} */
+.card-wrapper {
+    position: relative;
+    height: 50.8mm;
+    width: 88.8mm;
+    border: 1px solid rgb(114, 112, 105);
+    border-radius: 6px;
+    overflow: hidden;
+    /* box-shadow: 1mm 1mm 1mm; */
+    background-color: rgb(248 234 210);
+}
+.rect5-left {
+    position: absolute;
+    height: 45mm;
+    width: 21.7mm;
+    left: -2mm;
+    top: -4mm;
+    background-color: rgb(196, 51, 94);
+    transform: rotate(17deg) skew(17deg);
+}
+.rect6-left {
+position: absolute;
+height: 33mm;
+width: 34.5mm;
+top: 8mm;
+left: -13mm;
+background-color: rgb(243, 109, 20);
+transform: rotate(26deg) skew(26deg);
+}
+.rect7-left {
+    position: absolute;
+    height: 34mm;
+    width: 7mm;
+    top: 16.1mm;
+    left: 19mm;
+    background-color: rgb(255, 150, 51);
+    transform: rotate(22deg) skew(22deg);
+}
+.rect8-left {
+    position: absolute;
+    height: 34mm;
+    width: 8mm;
+    top: 27mm;
+    left: 0.6mm;
+    background-color: rgb(255, 150, 51);
+    transform: rotate(-14deg) skew(50deg);
+}
+.tri2-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 27pt solid #383030;
+    border-right: 55pt solid transparent;
+    border-top: 126pt solid transparent;
+}
+.line {
+    position: absolute;
+    height: 0.4mm;
+    width: 28mm;
+    top: 11mm;
+    right: 5mm;
+    background-color: black;
+}
+.line1 {
+    position: absolute;
+    height: 0.8mm;
+    width: 8mm;
+    top: 11mm;
+    right: 25mm;
+    background-color: orange;
+}
+.title {
+    position: absolute;
+    height: 0mm;
+    width: 54mm;
+    top: 2mm;
+    right: -8mm;
+    font-size: 11pt;
+}
+
+.qr-code img {
+    position: absolute;
+    height: 40pt;
+    width: 44pt;
+    left: 66mm;
+    top: 31mm;
+}
+.org-name {
+    position: absolute;
+    height: 0mm;
+    width: 45mm;
+    top: 7mm;
+    right: -3.2mm;
+    font-size: 8pt;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* .org-name {
+    position: absolute;
+    height: 0mm;
+    width: 72mm;
+    top: 5mm;
+    left: 17mm;
+    font-size: 9pt;
+    font-weight: bolder;
+} */
+.org-address {
+    position: absolute;
+    height: 0mm;
+    width: 69mm;
+    top: 21mm;
+    left: 20.5mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 10pt;
+}
+.org-address-img img {
+    position: absolute;
+    height: 5.5mm;
+    width: 5.5mm;
+    top: 20.7mm;
+    left: 20mm;
+    /* background-color: white; */
+}
+.org-email {
+    position: absolute;
+    height: 0mm;
+    width: 57mm;
+    top: 28mm;
+    left: 14.5mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 10pt;
+}
+.org-email-img img {
+    position: absolute;
+    height: 5.5mm;
+    width: 5.5mm;
+    top: 27.7mm;
+    left: 20mm;
+    /* color: white; */
+}
+.org-phone {
+    position: absolute;
+    height: 0mm;
+    width: 57mm;
+    top: 35mm;
+    left: 6.5mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 10pt;
+}
+.org-phone-img img {
+    position: absolute;
+    height: 5mm;
+    width: 5mm;
+    top: 35mm;
+    left: 20mm;
+}
+.org-website {
+    position: absolute;
+    height: 0mm;
+    width: 50mm;
+    top: 42mm;
+    left: 11.5mm;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: 10pt;
+}
+.org-website-img img {
+    position: absolute;
+    height: 5mm;
+    width: 5mm;
+    top: 42mm;
+    left: 20mm;
+}
