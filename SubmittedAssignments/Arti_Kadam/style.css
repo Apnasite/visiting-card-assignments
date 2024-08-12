@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.card1-wrapper{
+.card-wrapper.card-front{
     position:absolute;
     width: 88.9mm;
     height: 50.8mm;
@@ -52,8 +52,7 @@ body {
     text-align: start;
     color: #333;
 }
-
-.card1-content .org-website
+  .card1-content .org-website
   {
     position: relative;
     top:95pt;
@@ -75,7 +74,7 @@ body {
 }
 
 
-.card2-wrapper{
+.card-wrapper.card-back{
     position:absolute;
     width: 88.9mm;
     height: 50.8mm;
@@ -104,7 +103,6 @@ body {
     transform: skewX(-47deg);
     position: absolute;
 }
-
 
 
 .card2-content .org-img{
@@ -158,7 +156,7 @@ body {
       z-index:1;
    }
 
-  .party-email{
+   .party-email{
    font-weight: bolder;
      font-family: "Roboto Slab", serif;
      font-size: 0.8em;
@@ -168,7 +166,7 @@ body {
      z-index:1;
   }
  
-   .party-phone{
+  .party-phone{
        font-weight: normal;
        font-family: "Roboto Slab", serif;
        font-size: 0.8em;
