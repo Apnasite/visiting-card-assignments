@@ -23,14 +23,14 @@ body {
     height: 0;
     left: 27mm;
     transform: skewX(26deg);
-    top: 153px;
+    top: 40.48mm;
     z-index: 1;
     border-top: 56pt solid #d4a13c;
     border-right: 105pt solid #d4a13c;
     position: absolute;
 }
   .left-small{
-        width: 4.23mmx;
+        width: 4.23mm;
     height: 5.29mm;
     transform: skewX(-31deg);
     left:16mm;
@@ -72,16 +72,16 @@ body {
     font-weight: 100;
     font-style: inherit;
     width: 168pt;
-    margin-bottom: 6px;
-    margin-left: 5px;
-    font-size: 0.9em;
+    margin-bottom: 4.5pt;
+    margin-left: 3.75pt;
+    font-size: 9pt;
   }
 
   .party-job-title
   {
     font-family: Arial, sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.4em;
+    font-size: 16pt;
     margin-top: 4pt;
     margin-left: 4.23mm;
   }
@@ -233,7 +233,7 @@ body {
   
  .hexagon {
     width:23.81mm;
-    height: 54.18mm;
+    height: 53.18mm;
     background-color: #1b1b1b;
     transform: rotate(270deg);
     top: 54px;
@@ -248,11 +248,10 @@ body {
     border-right: 50px solid transparent;
   }
   .hexagon:before {
-    top: -8mm;
-    left: -10px;
-    border-bottom: 8.17mm solid #1b1b1b;
-}
-  
+    top: -12.17mm;
+    left: -8px;
+    border-bottom: 12.17mm solid #1b1b1b;
+  }
   
   .hexagon:after {
     bottom: -7.67mm;
@@ -270,7 +269,7 @@ body {
     font-weight: bold;
     color: black;
     z-index: 100;
-    font-size: 1em;
+    font-size: 7pt;
   }
 
   .org-address
