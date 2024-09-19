@@ -1,0 +1,167 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gray;
+}
+
+/* Business Card */
+.business-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Front of the card */
+.card {
+  width: 400px;
+  height: 220px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.front {
+  display: flex;
+}
+
+/* Left Side */
+.left-side {
+  background-color: #1d1d29;
+  color: white;
+  width: 50%;
+  padding: 20px;
+}
+
+.left-side h2 {
+  font-size: 22px;
+  color: #e53935;
+  font-weight: bold;
+}
+
+.left-side p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-info {
+  list-style: none;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 8px;
+}
+
+/* Right Side */
+.right-side {
+  background-color: white;
+  color: #333;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo h3 {
+  font-size: 18px;
+  color: #e53935;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.qr-code img {
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  border: 2px red solid;
+}
+
+/* Back of the card */
+.back {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative; /* To position the bottom line */
+}
+
+.logo2 img {
+  width: 200px;
+}
+
+.back-content {
+  text-align: center;
+}
+
+.back-content p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Red and Black Bottom Line (Back of the Card) */
+.back::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #333 50%, #e53935 50%);
+}
+
+/* Remove side red line on both sides */
+.card.front:before,
+.card.back:before {
+  content: none; 
+}
+
+.name-arrow h1 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.name-arrow p {
+  font-size: 10px;
+}
+
+.name-arrow {
+  position: relative;
+  padding-left: 40px; /* Space for the mirrored arrow */
+  background-color: #E32636; /* Arrow background color */
+  display: inline-block; /* Ensures the arrow follows the text */
+}
+
+.name-arrow:before {
+  content: '';
+  position: absolute;
+  right: -40px; /* Arrow on the left side */
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 35px 40px; /* Adjusted for a left-pointing arrow */
+  border-color: transparent transparent transparent #E32636; /* Pink arrow */
+}
