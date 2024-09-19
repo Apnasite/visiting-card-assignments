@@ -8,9 +8,9 @@ body {
     width: 88.9mm;
     height: 50.8mm;
     background-color: #ffffff;
-    border: 1px solid #ccc;
+    border: 0.75pt solid #ccc;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
     border-radius: 5mm;
 }
 
@@ -24,7 +24,7 @@ body {
     height: 9mm;
     width: 145mm;
     transform: skew(-23deg);
-    border-top-left-radius: 20px;
+    border-top-left-radius: 15pt;
     top: 33mm;
     left: 34mm;
     position: absolute;
@@ -36,7 +36,7 @@ body {
     height: 9mm;
     width: 47mm;
     transform: skew(-24deg);
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 15pt;
     top: 33mm;
     left: -22mm;
     position: absolute;
@@ -55,7 +55,7 @@ body {
 
 .card1-content
 {
-    margin-left: 23px;
+    margin-left: 17.25pt;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -174,7 +174,7 @@ body {
     height: 16mm;
     width: 160mm;
     transform: skew(-23deg);
-    border-top-left-radius: 20px;
+    border-top-left-radius: 15pt;
     top: 41mm;
     left: 10mm;
     position: absolute;
@@ -187,7 +187,7 @@ body {
     height: 22mm;
     width: 65.44mm;
     transform: skew(-34deg);
-    border-top-left-radius: 40px;
+    border-top-left-radius: 30pt;
     top: 19mm;
     left: 34mm;
     position: absolute;
@@ -199,7 +199,7 @@ body {
   {    height: 11mm;
     width: 42mm;
     transform: skew(-24deg);
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 15pt;
     top: 4mm;
     left: -8mm;
     position: absolute;
@@ -239,7 +239,7 @@ body {
   {
     position: relative;
     top: 62pt;
-    left: 72px;
+    left: 54pt;
     font-style: normal;
     font-size: 7pt;
   }
@@ -262,7 +262,7 @@ body {
   {
     position: relative;
     top: 0pt;
-    left: 113px;
+    left: 84.75pt;
     font-style: normal;
     font-size: 9pt;
     color: white;

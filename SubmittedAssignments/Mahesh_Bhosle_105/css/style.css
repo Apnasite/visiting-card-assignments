@@ -9,7 +9,8 @@ body {
   height: 50.8mm;
   background-color:rgb(249, 150, 31);
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+
     border-radius: 5mm;
 
 }
@@ -83,7 +84,8 @@ body {
   background-color: rgb(254, 246, 230);
   overflow: hidden;
   top: 67mm;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+
     border-radius: 5mm;
 
 }
@@ -155,7 +157,7 @@ body {
     font-family: "Roboto Slab", serif;
     font-size: 9.6pt;
     position: relative;
-    top: 95pt;
+    top: 85pt;
     left: -51pt;
     z-index:1;
  }
@@ -165,7 +167,7 @@ body {
     font-family: "Roboto Slab", serif;
     font-size: 9.6pt;
     position: relative;
-    top: 93pt;
+    top: 83pt;
     left: -81pt;
     z-index:1;
  }
@@ -175,7 +177,7 @@ body {
    font-family: "Roboto Slab", serif;
    font-size: 9.6pt;
    position: relative;
-   top: 91pt;
+   top: 81pt;
    left: -55pt;
    z-index:1;
 }
@@ -185,7 +187,7 @@ body {
      font-family: "Roboto Slab", serif;
      font-size: 9.6pt;
      position: relative;
-     top: 88pt;
+     top: 78pt;
      left: -83pt;
      z-index: 1;
      
