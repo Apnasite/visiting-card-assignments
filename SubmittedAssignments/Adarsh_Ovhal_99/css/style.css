@@ -7,7 +7,7 @@ body {
     width: 88.9mm;
     height: 50.8mm;
     background-color: #ffffff;
-    border: 1px solid #ccc;
+    border: 0.75pt solid #ccc;
     overflow: hidden;
 }
 .tri1{
@@ -21,7 +21,7 @@ body {
     rotate: 131deg;
 }
 
-.tri2{
+.tri2 {
     left: -1mm;
     top: 49mm;
     width: 0;
@@ -34,7 +34,7 @@ body {
 .tri3{
     left: 84mm;
     top: -55mm;
-    width: 167px;
+    width: 44.18mm;
     height: 8mm;
     border-top: 198pt solid rgb(18, 85, 133);
     border-right: 354pt solid transparent;
@@ -52,11 +52,11 @@ body {
     rotate: -131deg;
         }
         .rect5{
-            width: 140mm;
-    height: 0mm;
-    border-bottom: 12pt solid rgb(236,211,70);
-    border-left: 3pt solid transparent;
-    rotate: 47deg;
+        width: 140mm;
+        height: 0mm;
+        border-bottom: 12pt solid rgb(236,211,70);
+        border-left: 3pt solid transparent;
+        rotate: 47deg;
 }
         .rect6{
             width: 5mm;
@@ -66,8 +66,8 @@ body {
             transform: skew(50deg, -19deg);
             position: absolute;
         }
-        .rect7{
-            right: -221mm;
+.rect7{
+    right: -221mm;
     width: 171mm;
     height: 239mm;
     top: 47mm;
@@ -85,24 +85,24 @@ body {
     position: absolute;  
 }
 .tri9{
-    left: 0px;
-    top: 135px;
-    border-bottom: 36px solid rgb(75, 178, 178);
-    border-right: 31px solid transparent;
-    border-left: 36px solid transparent;
+    left: 0mm;
+    top: 35.71mm;
+    border-bottom: 27pt solid rgb(75, 178, 178);
+    border-right: 23.25pt solid transparent;
+    border-left: 27pt solid transparent;
     height: 0;
-    width: 54px;
+    width: 14.28mm;
     position: absolute;
     rotate: -141deg;
 }
 .tri10{
-    left: 229px;
-    top: 26px;
-    border-bottom: 36px solid rgb(81, 181, 181);
-    border-right: 31px solid transparent;
-    border-left: 29px solid transparent;
+    left: 60mm;
+    top: 6.15mm;
+    border-bottom: 27pt solid rgb(81, 181, 181);
+    border-right: 23.25pt solid transparent;
+    border-left: 21.75pt solid transparent;
     height: 0;
-    width: 54px;
+    width: 14.28mm;
     position: absolute;
     rotate: 47deg;
 }
@@ -118,26 +118,27 @@ body {
 }
 .card1-content
 {
-    margin-left: -115px;
+    margin-left: -30.42pt;
     position: absolute;
-    top: 23%;
-    left: 78%;
+    top: 60.854mm;
+    left: 206.375mm;
     margin-top: 7pt;
     transform: translate(-30%, -50%);
     text-align: start;
     color: #333;
 }
-.company-name{
+ .company-name{
     position: absolute;
-    top: 27%;
-    left:36%;
-    margin-top: 10%;
+    top: -3mm;
+    left: 31mm;
+    margin-top: 26.458mm;
     text-align: center;
+    
 }
 .slogan{
     position: absolute;
-    top: 56%;
-    left: 41%;
+    top: 30mm;
+    left: 37mm;
     text-align: center;
     color:rgb(72, 173, 193) ;
 }
@@ -151,8 +152,8 @@ body {
 .org-website
   {
     position: absolute;
-    top: 115pt;
-    left: 82pt;
+    top: 40.56mm;
+    left: 28.92mm;
     font-style: normal;
     font-size: 8pt;
     color: white;
@@ -193,24 +194,24 @@ body {
         position: absolute;
     }
     .tri15{
-        left: 0px;
-        top: 135px;
-        border-bottom: 36px solid rgb(75, 178, 178);
-        border-right: 31px solid transparent;
-        border-left: 36px solid transparent;
+        left: 0mm;
+        top: 36mm;
+        border-bottom: 27pt solid rgb(75, 178, 178);
+        border-right: 23.25pt solid transparent;
+        border-left: 27pt solid transparent;
         height: 0;
-        width: 54px;
+        width: 14.28mm;
         position: absolute;
         rotate: -141deg;
     }
     .rect16{
         right: -221mm;
-width: 171mm;
-height: 239mm;
-top: 47mm;
-background:rgb(21, 65, 94);
-transform: skew(-136deg);
-position: absolute;
+        width: 171mm;
+        height: 239mm;
+        top: 47mm;
+        background:rgb(21, 65, 94);
+        transform: skew(-136deg);
+        position: absolute;
 }
 .tri17{
     left: -11mm;
@@ -226,7 +227,7 @@ position: absolute;
 .tri18{
     left: 3mm;
     top: -7mm;
-    width: 0px;
+    width: 0mm;
     height: 0;
     border-top: 40pt solid rgb(18, 85, 133);
     border-right: 40pt solid transparent;
@@ -245,13 +246,13 @@ position: absolute;
 
 }
 .tri20{
-    left: -7px;
-    top: 28px;
-    border-bottom: 37px solid rgb(75, 178, 178);
-    border-right: 27px solid transparent;
-    border-left: 30px solid transparent;
-    height: 1px;
-    width: 62px;
+    left: -1.8mm;
+    top: 7.40mm;
+    border-bottom: 27.75pt solid rgb(75, 178, 178);
+    border-right: 20.25pt solid transparent;
+    border-left: 22.5pt solid transparent;
+    height: 0.26mm;
+    width: 16.40mm;
     position: absolute;
     rotate: -46deg;
 
@@ -280,10 +281,10 @@ position: absolute;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-style: inherit;
-    width: 167pt;
+    width: 58.91mm;
     font-size: 3.9mm;
     font-weight: bold;
-    margin-left: 40mm;
+    margin-left: 38mm;
     margin-top: -44mm;
     color: rgb(56, 108, 130);
     }
@@ -306,76 +307,76 @@ position: absolute;
     top: 23mm;
     position: absolute;
     left: 55mm;
-    font-size: 11px;
+    font-size: 8.25pt;
        }
 
     .mail{
     top: 29mm;
     position: absolute;
     left: 55mm;
-    font-size: 8px
+    font-size: 6pt;
      }
      .mail2{
         top: 31mm;
         position: absolute;
         left: 55mm;
-        font-size: 9px;
+        font-size: 6.75pt;
       }
       .mail-img{
         position: absolute;
-        width: 6.5%;
-        height: 17%;
+        width: 6mm;
+        height: 9mm;
         top: 26mm;
         left: 48mm;
     }
     .phone-img{
        
         position: absolute;
-        width: 7%;
-        height: 16%;
+        width: 6.5mm;
+        height: 9.5mm;
         top: 19mm;
-        left: 48mm;
+        left: 47mm;
     }
     .org-address
     {
         position: absolute;
-        top: 136px;
-        left: 205px;
+        top: 36mm;
+        left: 54.23mm;
         font-style: normal;
-        font-size: 8px;
+        font-size: 6pt;
     }
     .home-img{
         position: absolute;
-        top: 131px;
-        left: 182px;
+        top: 34mm;
+        left: 48mm;
         font-style: normal;
-        font-size: 4px;
-        width: 6%;
+        font-size: 3pt;
+        width: 6mm;
     }
     .company-name2{
         position: absolute;
-        top: 32%;
-        left: 25%;
-        margin-top: 10%;
+        top: 1mm;
+        left: 20mm;
+        margin-top: 26.458mm;
         text-align: center;
-        font-size: 60%;
+        font-size: 7.2pt;
 
        
     }
     .slogan2{
         position: absolute;
-        top: 57%;
-        left: 28%;
+        top: 31mm;
+        left: 24mm;
         text-align: center;
-        font-size: 58%;
+        font-size: 6.96pt;
         color: rgb(72, 173, 193);
     }
     .org-logo-img2{
         position: absolute;
-    height: 32%;
-    width: 17%;
-    top: 26%;
-    left: 26%;
+        height: 24mm;
+        width: 16mm;
+        top: 11mm;
+        left: 21mm;
     }
    
     
