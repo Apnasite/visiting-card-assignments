@@ -1,0 +1,272 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.card-wrapper {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #f0eaea;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2-background {
+    /* Customize background styling as needed */
+    background-color: white;
+    height: 100%;
+}  
+
+.party-job-title1.qr-img{
+    height: 9mm;
+    width: 9mm;
+    position: absolute;
+}
+
+.card2-content
+{
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #0f0e0f;
+}
+
+  .party-name
+  {
+    position: absolute;
+    left: -20mm;
+    top: 1mm;
+    color: rgb(8, 5, 5);
+    font-size: 12pt;
+    font-family: 'Helvetica', sans-serif;
+    width:50mm;
+    text-align: center;
+ }
+ 
+
+  .party-job-title
+  {
+    position: absolute;
+    left: -8mm;
+    top: 6mm;
+    text-align: center;
+    color: rgb(7, 1, 1);
+    font-size: 7pt;
+    z-index: 9;
+    font-family: 'Helvetica', sans-serif;
+  } 
+
+  .org-logo {
+    position: relative;
+    top: -30pt;
+    left: -1pt;
+}
+  
+  .company
+  {
+    position: absolute;
+    left: -1mm;
+    top: 30mm;
+    color: antiquewhite;
+    font-size: 11pt;
+
+  }
+  
+    .card1-background
+  {
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+  .card1-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .party-name1
+  {
+    position: absolute;
+    left: -15pt;
+    top: 9pt;
+    color: black;
+    font-size: 11pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 79pt;
+}
+
+  .party-job-title1
+  {
+    position: absolute;
+    left: -10pt;
+    top: 20pt;
+    color: black;
+    font-size: 5.6pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 48pt;
+}
+.image{
+    position: absolute;
+    left: -3pt;
+    top: 33pt;
+    border: 1px solid cyan;
+    object-fit: cover;
+}
+  .party-name2
+  {
+    position: absolute;
+    left: 105pt;
+    top: -40pt;
+    color: rgb(18, 34, 58);
+    font-size: 12pt;
+    font-family: 'Helvetica', sans-serif;
+}
+.party-name3
+{
+  position: absolute;
+    left: 153.5pt;
+    top: -40pt;
+    font-size: 11pt;
+    color: #070401;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.party-job-title2
+{
+  position: absolute;
+    left: 90pt;
+    top: -26pt;
+    color: rgb(97, 98, 99);
+    font-size: 7.1pt;
+    font-family: 'Helvetica', sans-serif;
+    width: 85pt;
+}
+
+  .org-logo1
+  {
+    position: relative;
+    top: -26pt;
+    left: 1mm;
+   
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -241pt;
+    left: -65pt;
+    font-style: oblique;
+    font-size: 6pt;
+    font-weight: bolder;
+  }
+  
+  .org-address
+  {
+    position: absolute;
+    top: 105pt;
+    left: 159.5pt;
+    font-style: normal;
+    font-size: 7pt;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bolder;
+  }
+
+  .org-phone
+  {
+    position: absolute;
+    top: 55pt;
+    left: 158pt;
+    font-style: normal;
+    font-size: 7pt;
+    color: rgb(0, 0, 0);
+    width:25%;
+    font-weight: bolder;
+  }
+
+  .org-email
+  {
+    position: absolute;
+    left: 144pt;
+    top: 80pt;
+    width: 19%;
+    height: auto;
+    margin-left: 15pt;
+    margin-right: 15pt;
+    font-size: 7pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bolder;
+  }
+  .icon1
+  {
+    position: absolute;
+    z-index: 9;
+    left: -15pt;
+    top: 1pt;
+    border: 2px solid ;
+  }
+  .icon2
+  {
+    position: absolute;
+    z-index: 9;
+    left:-16pt;
+    top: 1.2pt;
+    border: 2px solid ;
+  }
+  .icon3
+  {
+    position: absolute;
+    z-index: 9;
+    left: -16pt;
+    top: 5pt;
+    border: 2px solid ;
+  }
+
+  .box1 {
+    position: absolute;
+    height: 5mm;
+    width: 40mm;
+    background-color: rgb(0, 180, 200);
+    bottom: 3mm;
+    right: 68mm;
+    margin: -2mm;
+    transform: skewX(-45deg);
+  }
+  .box2 {
+    position: absolute;
+    height: 5mm;
+    width: 100mm;
+    background-color: rgb(0, 180, 200);
+    bottom: 3mm;
+    left: 31mm;
+    margin: -2mm;
+    transform: skewX(-45deg);
+  }
+
+ .card1-background .right-section {
+    background: rgb(6, 200, 221);
+    padding: 20px;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    right: -10mm;
+    height: 200px;
+    width: 230px;
+    border-left: 5px solid black;
+    
+	}
+  
