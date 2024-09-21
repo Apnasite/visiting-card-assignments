@@ -1,5 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
+    center {
+      padding-top: 15mm;
+    }
 }
 
 .card-wrapper {
@@ -92,6 +95,7 @@ body {
   font-size: 15pt;
   font-weight: bold;
   font-family: "Roboto Slab", serif;
+  color: rgb(243, 171, 41);
 }
 
   .party-job-title
@@ -103,6 +107,7 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 7pt;
   font-weight: bold;
+  
   }
 
 
@@ -118,10 +123,10 @@ body {
   .org-logo-img
   {
     position: absolute;
-    top: -47pt;
-    left: -23pt;
-    height: 17mm;
-    width: 22mm;
+    top: -155pt;
+    left: 167pt;
+    height: 30mm;
+    width: 43mm;
 
   }
 
@@ -202,15 +207,7 @@ body {
     border-radius: 18%;
   }
 
-  .right3{
-  left: -37mm;
-    width: 4.9mm;
-    height: 4.9mm;
-    background-color: rgb(243, 171, 70);
-    position: relative;
-    bottom: 67mm;
-    border-radius: 18%;
-  }
+ 
 
   .logo{
    position: relative;
@@ -230,7 +227,7 @@ body {
     color: #ffffff;
   }
 
-  .party-name1
+  .party-name
   {
     color: rgb(243, 171, 70);
     line-height: 94%;
@@ -260,18 +257,14 @@ body {
   
   .qr-img
   {
-    max-width: 20%;
-    height: auto;
+    width: 21mm;
+    height: 17mm;
+    top: -50pt;
+    left: -21pt;
+    position: absolute;
   }
 
-  .qr-code
-  {
-    top: -45pt;
-    left: 104pt;
-    position: relative;
-  }
-
-
+ 
   .org-logo-img1
   {
     position: relative;
@@ -289,11 +282,11 @@ body {
     line-height: 94%;
     font-style: oblique;
     position: relative;
-    top: -160pt;
-    left: 102pt;
+    top: -165pt;
+    left: -48pt;
     font-family: "Roboto Slab", serif;
-   font-size: 11pt;
-    color: black;
+   font-size: 12pt;
+    color: rgb(243, 171, 70);
     font-weight: bold;
   }
 
@@ -302,30 +295,30 @@ body {
   {
     line-height: 94%;
   position: relative;
-  top: -159pt;
-  left: 102pt;
+  top: -160pt;
+  left: -48pt;
   font-family: "Roboto Slab", serif;
-  font-size: 5pt;
+  font-size: 6pt;
   font-weight: bold;
-  color: black;
+  color: white;
   }
 
   .org-phone
   {
     position: relative;
-    bottom: 207pt;
-    left: -16mm;
+    bottom: 182pt;
+    left: -17mm;
     color: #ffffff;
     font-style: normal;
-    font-size: 6pt;
+    font-size: 8pt;
   
   }
 
   .org-address
   {
     position: relative;
-    bottom: 125pt;
-    left: 20mm;
+    bottom: 97pt;
+    left: 18mm;
     font-style:inherit;
     font-size: 6pt;
     text-align:left;
@@ -336,10 +329,10 @@ body {
   .org-email
   {
     position: relative;
-    bottom: 176pt;
+    bottom: 150pt;
     left: -38pt;
     font-style: normal;
-    font-size: 6pt;
+    font-size: 8pt;
   }
   
   
@@ -347,14 +340,6 @@ body {
   .org-website
   {
     position: relative;
-    bottom: 200pt;
-    left: -35pt;
-    font-style: normal;
-    font-size: 6pt;
-  }
-
-  .party-phone {
-    position: absolute;
     bottom: 200pt;
     left: -35pt;
     font-style: normal;
@@ -369,12 +354,19 @@ body {
     font-size: 6pt;
   }
 
-  .website  {
+  .party-phone  {
     position: absolute;
-    bottom: 31.5pt;
-    left: 91pt;
+    bottom: -38pt;
+    left: -26pt;
     font-style: normal;
     font-size: 7pt;
+  }
+
+
+  .bi-telephone{
+    position: absolute;
+    top: 0mm;
+    left:-3mm;
   }
 
  
