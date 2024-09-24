@@ -1,0 +1,189 @@
+body{
+    background-color:rgb(199, 199, 199);
+ 
+}
+body center .front-side{
+    margin: auto;
+    overflow: hidden;
+    top: 20pt;
+    left: auto;
+    width: 110mm;
+    height: 60mm;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5mm;
+}
+.back-side{
+    margin: auto;
+    overflow: hidden;
+    top: 20pt;
+    left: auto;
+    width: 110mm;
+    height: 60mm;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5mm;
+    
+}
+/* certificate text && body color is hsl(45.07deg 100% 59.8%)  */
+
+.bottom-line1{
+    position: absolute;
+    width: 90mm;
+    height: 6mm;
+    bottom: 0mm;
+    left: 0mm;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.tringle1{
+    position: absolute;
+    width: 45mm;
+    height: 22mm;
+    bottom: -2mm;
+    right: -15mm;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    /* transform: skewX(4deg); */
+    rotate: -40deg;
+}
+.tringle2{
+    position: absolute;
+    width: 11mm;
+    height: 27mm;
+    bottom: -17mm;
+    right: -2mm;
+    overflow: hidden;
+    border: solid hsl(45.07deg 100% 59.8%);
+    border-radius: 2mm;
+    background: transparent;
+    /* transform: skewX(4deg); */
+    rotate: -40deg;
+}
+.tringle3{
+    position: absolute;
+    width: 16mm;
+    height: 30mm;
+    bottom: -12mm;
+    right: -9mm;
+    overflow: hidden;
+    border: solid 6mm hsl(45.07deg 100% 59.8%);
+    border-radius: 2mm;
+    background: transparent;
+    /* transform: skewX(4deg); */
+    rotate: -40deg;
+}
+
+/* background design finish */
+
+/* now started main containt */
+
+.img1 i  {
+    position: absolute;
+    font-size: 40px;
+    color: #ffcc00;
+    margin: 10px 0;
+    top: 7mm;
+    left: 9mm;
+    background: transparent;
+}
+.img2 i  {
+    position: absolute;
+    font-size: 15px;
+    color: #ffcc00;
+    /* background-color: yellow; */
+    /* margin: 10px 0; */
+    top: 33mm;
+    /* width: 7mm; */
+    /* height: 63mm; */
+    left: 9mm;
+    background: transparent;
+}
+.img3 i  {
+    position: absolute;
+    font-size: 15px;
+    color: #ffcc00;
+    /* background-color: yellow; */
+    /* margin: 10px 0; */
+    top: 40mm;
+    /* width: 7mm; */
+    /* height: 63mm; */
+    left: 9mm;
+    background: transparent;
+}
+.img4 i  {
+    position: absolute;
+    font-size: 15px;
+    color: #ffcc00;
+    /* background-color: yellow; */
+    /* margin: 10px 0; */
+    top: 47mm;
+    /* width: 7mm; */
+    /* height: 63mm; */
+    left: 9mm;
+    background: transparent;
+}
+.logo  {
+    position: absolute;
+    width: 19mm;
+    height: 7mm;
+    top: 9mm;
+    right: 9mm;
+}
+.logo2  {
+    position: absolute;
+    width: 35mm;
+    height: 15mm;
+    top: 22mm;
+    left: 37mm;
+
+}
+h3.name{
+    position: absolute;
+    top: 5mm;
+    left: 21mm;
+    font-weight: 200;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+div.profession{
+    position: absolute;
+    top: 16mm;
+    left: 21mm;
+    font-size: 3mm;
+    font-weight: 200;
+    font-style: initial;
+    color: #6b6969;
+}
+div .contact{
+    /* position: absolute;
+    top: 31mm;
+    left: 15mm;
+    font-size: 3mm;
+    font-weight: 200;
+    font-style: initial;
+    */
+    position: absolute;
+    bottom: 21mm;
+    left: 15mm;
+    font-size: 3mm;
+}
+
+div.mail {
+    position: absolute;
+    bottom: 17mm;
+    left: 15mm;
+    font-size: 3mm;
+   
+}
+div.website{
+    position: absolute;
+    bottom: 14mm;
+    left: 15mm;
+    font-size: 3mm;
+}
+div .address{
+    position: absolute;
+    bottom: 9mm;
+    left: 15mm;
+    font-size: 3mm;
+}
