@@ -142,7 +142,7 @@
     overflow: hidden;
 }
 
-.card2-content .QR{
+.card2-content .qr{
     font-size: 73.70pt;
     position: absolute;
     right: 0mm;
@@ -150,7 +150,7 @@
     padding-right: 13.22mm;
 }
 
-.left-content{
+.bi-phone-fill{
     top: -137mm;
     position: absolute;
     overflow: hidden;
@@ -177,7 +177,7 @@
     left: 20mm;
     position: absolute;
 }
-.company2{
+.org-address-location{
     top: -61mm;
     left: 111mm;
     word-spacing: 15px;
@@ -212,7 +212,7 @@
     font-weight: bold;
 } */
 
-.right-content2{
+.bi-browser-chrome{
  position: absolute;
    position: absolute;
     top: -108mm;
@@ -227,12 +227,14 @@
 }
 .org-address
   {
-   position: absolute;
-    top: 5.29mm;
-    left: 17.99mm;
+    position: absolute;
+    top: 8.29mm;
+    left: -10.01mm;
+    line-height: 5mm;
     font-weight: bold;
+    text-align: left;
     font-size: 7pt;
-  }
+}
   .org-email
   {
    position: absolute;
@@ -263,9 +265,12 @@
     color: black;
     
 }
-.icon{
-    background: white;
-    padding: 2mm;
-    border-radius: 7mm;
-    margin-left: 49mm;
+.bi-telephone-fill{
+    color: white;
+    line-height: 8mm;
+    position: relative;
+    top: -216mm;
+    left: 94mm;
+    margin: auto;
+    padding: 1mm;   
 }
