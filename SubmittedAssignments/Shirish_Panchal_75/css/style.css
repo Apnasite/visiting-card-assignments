@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0mm;
+    padding: 0mm;
     font-family: sans-serif;
 }
 
@@ -30,7 +30,6 @@
 .card1-background{
     height:100mm;
     width: 150mm;
-    /* border: 1px solid black; */
 	top:34mm;
 	left:28mm;
     border-radius: 5mm;
@@ -39,7 +38,7 @@
     background-color: #FFFFFF;
     /* text-align: center; */
 
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
 }
 
 .card1-content{
@@ -128,7 +127,7 @@
     position: relative;
     margin-top: 13mm;
     background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
 }
 .right-big{
     height: 24mm;
@@ -180,7 +179,7 @@
 .org-address-location{
     top: -61mm;
     left: 111mm;
-    word-spacing: 15px;
+    word-spacing: 3.96875mm;
     position: absolute;
 
     
