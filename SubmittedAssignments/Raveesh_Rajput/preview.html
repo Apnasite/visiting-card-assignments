@@ -3,93 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
     <title>Visiting Card</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body>
-        <div class="card-wrapper card-front">
-             <!-- Card Background -->
-            <div class="card1-background">
-                <!-- Customize background elements as needed -->
-            </div>
-            <!-- Content of Visiting Card -->
-            <div class="card1-content">
-                <div class="party-name">Ravish Rajput</div>
-                <div class="line"></div>
-                <div class="party-job-title">
-                    <p>Full Stack Developer</p>
-                </div>
-                <div class="company">MMEAC</div>
-                 <!-- Additional Contact Information -->
-                <div class="company-logo">
-                    <img class="orgLogo" src="./img/org-logo.png" alt="company-logo">
-                </div>
-                <div class="qr-code">
-                    <img src="./img/qr.png" alt="image-qr">
-                </div>
-                <div class="contact-info">
-                    <div class="phone-icon">
-                        <img class="phone-icon1" src="./icons/phone.png" alt="locationIcon">
-                    </div>
-                    <div class="party-phone">
-                        <p>Phone: 6739793002</p>
-                    </div>
-                    <div class="email-icon">
-                        <img class="email-icon1" src="./icons/mail.png" alt="locationIcon">
-                    </div>
-                    <div class="party-email">
-                        <p>raviraj@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="card-wrapper card-back">
+<body style="background-color:black">
+    <center style="padding-top:50px">
+
+        <div class="card-wrapper_card-front">
             <!-- Card Background -->
-            <div class="card2-background">
-                <!-- Customize background elements as needed -->
-                <div class="bottombox">
-                    <span class="content1">// VISUAL</span>
-                    <span class="content2">ART STUDIO //</span>
+            <div class="card1-background">
+                <div class="bgimg1">
+                    <img src="./img/Bg.jpeg" width="600mm" height="600mm">
                 </div>
+                <div class="front-page"></div>
+                <div class="square1"></div>
+                <div class="square2"></div>
+                <div class="tri-1"></div>
+                <div class="front-page"></div>
+                <div class="square3"></div>
+                <div class="square4"></div>
+                <div class="tri-2"></div>
             </div>
-            <!-- Content of Visiting Card -->
-            <div class="card2-content">
+            <div class="card1-content">
                 <div class="org-logo">
-                    <img src="./icons/org-logo.png" alt="company-logo">
+                    <img src="./img/org-logo.png" width="40mm" height="40mm">
                 </div>
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <!-- Additional Contact Information -->
-                <div class="contact-info">
-                    <div class="phone-icon01">
-                        <img class="icon2" src="./icons/phone.png" alt="locationIcon">
-                    </div>
-                    <div class="party-phone1">
-                        <p>Phone: 6739793002</p>
-                    </div>
-                    <div class="email-icon01">
-                        <img class="icon2" src="./icons/mail.png" alt="locationIcon">
-                    </div>
-                    <div class="party-email1">
-                        <p>raviraj@gmail.com</p>
-                    </div>
-                    <div class="org-name">
-                        Maha Mission Education and Career Council
-                    </div>
-                    <div class="org-address">
-                        Office No. 404, Vastu Viva, Besides Sanket Inn, Bhumkar Chowk Wakad, Pimpri-Chinchwad,
-                        Pune, Maharashtra, Pincode-411057
-                    </div>
-                    <div class="org-website">
-                        <img class="org-website-icon" src="./icons/language.png" alt="webicon">
-                        <span class="org-website-lable">website:</span>
-                        <span class="org-website-address">www.mmeac.org</span>
-                    </div>
+                <div class="org-name">COMPANY NAME</div>
+                <div class="org-job-title">
+                    SLOGAN OF THE COMPANY GOES HERE
                 </div>
-            </div>
         </div>
+
+        <div class="card-wrapper_card-back">
+            <div class="card2-background">
+                <div class="back-page"></div>
+                <div class="square1"></div>
+                <div class="square2"></div>
+                <div class="tri-1"></div>
+            </div>
+
+            <div class="card2-content">
+                <div class="party-name">DWYANE CLARK</div>
+                <div class="party-job-title">GRAPHIC DESIGNER</div>
+                <div class="org-logo">
+                    <img src="./img/org-logo.png" width="17mm" height="17mm">
+                </div>
+                <div class="org-name">COMPANY NAME </div>                  
+                <div class="org-job-title">SLOGAN OF THE COMPANY GOES HERE</div>
+                <div class="designation">DESIGNER | FREELANCER | BLOGGER </div>
+
+                <address class="org-address">
+                    <i class="fa fa-map-pin" style="font-size:15px"></i>
+                    <span class="org-address-line-1">Office No. 404, Vastu Viva,</span><br>
+                    <span class="org-address-line-2">Besides Sanket Inn, Bhumkar Chowk</span><br>
+                    <span class="org-address-location">Wakad, </span><span class="org-address-area">Pimpri-Chinchwad, </span><br>
+                    <span class="org-address-city">Pune, </span><span class="org-address-area">Maharashtra</span><span class="org-address-pincode">-411057</span>
+                </address>
+                  <div class="org-email">
+                    <i class="fa fa-envelope" style="font-size:15px"></i>
+                    <span class="org-email-lable">Email:</span>
+                    <span class="org-email-address">info@mmeac.com</span>
+                  </div>
+                  <div class="org-phone">
+                    <i class="fa fa-phone" style="font-size:15px"></i>
+                    <span class="org-phone-lable">Phone:</span>
+                    <span class="org-phone-number">+91 8999417889</span>
+                  </div>
+                  <div class="org-website">
+                    <i class="fa fa-chrome" style="font-size:15px"></i>
+                    <span class="org-website-lable">Website:</span>
+                    <span class="org-website-address">www.mmeac.org</span>
+                  </div>
+            </div>
+        </div>        
+
+    </center>
+    
 </body>
 </html>
