@@ -1,0 +1,246 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #e48407;
+    height: 100%;
+}
+
+.left-big{
+    --s: 110px; /* control the shape (can be percentage) */
+margin-top: 1%;
+  width: 333px;
+  aspect-ratio: 4/2;
+  clip-path: polygon(0 0,0 var(--s),50% 100%,100% var(--s),100% 0,50% calc(50% - var(--s)));
+  background: white;
+  }
+ 
+  
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: 5pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 168pt;
+    font-size: 1.9em;
+    font-weight: bold; 
+  }
+
+  .party-job-title
+  {
+    font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 20pt;
+    margin-top: -5pt;
+    margin-left: -3%;
+  }
+
+  .qr-img
+  {
+    max-width: 21%;
+    height: auto;
+  }
+
+  .qr-code  {
+    top: -20pt;
+    left: -85pt;
+    position: absolute;
+  }
+  .org-logo{
+    top: -30pt;
+    left: 95pt;
+    position: absolute;
+
+  }
+
+  .company
+  {
+    font-weight: 700;
+    font-size: 1.0em;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    margin-top: -1pt;
+  }
+
+ .party-phone
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 9px;
+    margin-top: 10pt;
+    position: relative;
+    top: 0pt;
+    left: -14pt;
+ }
+
+ .party-email
+ {
+  font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 9px;
+    position: relative;
+    top: 5pt;
+    left: -14pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+     }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    background-color: white;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    width: 0;
+    height: 0;
+    border-top: 236pt solid #e48407;
+    border-left: 117pt solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: -64%;
+  }
+  .Right-small
+  {
+    width: 0;
+      height: 0;
+      position: absolute;
+      padding: 0px;
+      margin-top: 35%;
+      margin-left: 59%;
+      border-left: 41px solid transparent;
+      border-right: 41px solid transparent;
+      border-bottom: 83px solid #f19c34;
+  }
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: black;
+  }
+
+  .org-logo-img
+  {
+    position: relative;
+    top: 14pt;
+    left: 0pt;
+  }
+
+  .org-name
+  {
+    line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -5pt;
+    left:-3pt;
+    font-style: italic;
+    font-size: 18pt;
+  }
+
+  .org-address .org-address-line-1
+  {
+    position: relative;
+    top: -5pt;
+    left: -3px;
+    font-style: normal;
+    font-size: 9pt;
+    color: #333;
+  }
+  
+  .org-address .org-address-line-2 .org-address-location .org-address-city .org-address-pincode
+  {
+    position: relative;
+    top: -10pt;
+    left: 50px;
+    
+    font-size: 0.1pt;
+    color: #504f4f;
+  }
+
+  .org-phone
+  {
+    position: relative;
+    top: -8pt;
+    left: -20px;
+    font-style: normal;
+    font-size: 5pt;
+  }
+
+  .org-website
+  {
+    position: relative;
+    top: 5pt;
+    left: -19pt;
+    font-style: normal;
+    font-size: 5pt;
+  }
+  .org-email
+  {
+    position: relative;
+    top: 10pt;
+    left: -13pt;
+    font-style: normal;
+    font-size: 5pt;
+  }
