@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    margin: 90px auto;
+}
+
+.front, .back {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 00 px;
+}
+
+.front {
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.left-side h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.left-side h2 i {
+    margin-right: 8px;
+}
+
+.left-side p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.left-side ul {
+    list-style: none;
+}
+
+.left-side ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 12px;
+}
+
+.left-side ul li i {
+    margin-right: 10px;
+    color: #fbb600;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pentagon-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    z-index: -1;
+}
+
+.logo-container {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    background-color: #fbb600;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-side h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+.right-side p {
+    color: #fbb600;
+    font-size: 14px;
+}
+
+.back {
+    text-align: center;
+    background-color: white;
+}
+
+.back-center {
+    margin-top: 30px;
+}
+
+.back-center h3 {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.back-center p {
+    color: #999;
+    font-size: 14px;
+}
+
+.back-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.back-footer hr {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.back-footer p {
+    font-size: 14px;
+    color: black;
+    margin: 0 auto;
+}
