@@ -1,0 +1,15 @@
+{  
+"name": "string",
+"uid": "string",
+"masterId": "string",
+"module": "Certificate",
+"config": "object",
+"companyId": "string",
+"issuerId": "string",
+  "data":{
+      "partyName": "string",
+      "partyJobTitle": "string",
+      "partyPhoneNumber": "string",
+      "partyEmailAddress": "string"
+  }
+}

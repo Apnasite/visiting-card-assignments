@@ -1,0 +1,47 @@
+{
+  "name": "string",
+  "subHeading": "string",
+  "description": "string",
+  "thumbnail": "string",
+  "module": "string",
+  "category": "string",
+  "type": "string",
+  "tags": "array<string>",
+  "styles": "array<object>",
+  "config": "object",
+  "backgroundSchema": "array<object>",
+  "background": "string",
+  "backgroundUrl": "string",
+  "componentUrl": "string",
+  "components": "array<Components>",
+  "contentSchema": "array<object>",
+  "data":{
+  "qrCode":"string",
+  "orgLogo":"orgLogoImg",
+  "orgName":"string",
+  "orgAddress":{
+	"Line1": "string",
+    "Line2": "string",
+      "Location": "string",
+      "Area": "string",
+      "City":"string",
+      "Area1":"string",
+      "Pincode":"string"
+  },
+  "orgEmail":{
+    "orgEmailLable":"string",
+    "orgEmailAddress": "string"
+  },
+  "orgPhone":{
+    "orgPhoneLable":"string",
+    "orgPhoneNumber":"string"
+
+  },
+  "orgWebsite":{
+    "orgWebsiteLable":"string",
+    "orgWebsiteAddress":"string"
+
+  }
+}
+}
+
