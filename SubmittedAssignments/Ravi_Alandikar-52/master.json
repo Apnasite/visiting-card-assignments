@@ -16,31 +16,28 @@
   "components": "array<Components>",
   "contentSchema": "array<object>",
   "data":{
-  "qrCode":"string",
-  "orgLogo":"orgLogoImg",
-  "orgName":"string",
-  "orgAddress":{
-	"Line1": "string",
-    "Line2": "string",
-      "Location": "string",
-      "Area": "string",
-      "City":"string",
-      "Area1":"string",
-      "Pincode":"string"
+  "qrCode":"string"
   },
-  "orgEmail":{
-    "orgEmailLable":"string",
-    "orgEmailAddress": "string"
+  "organization":{
+  "logo":"orgLogoImg",
+  "name":"string",
+  "address":{
+	"line1": "string",
+    "line2": "string",
+      "location": "string",
+      "area": "string",
+      "city":"string",
+      "area1":"string",
+      "pincode":"string"
   },
-  "orgPhone":{
-    "orgPhoneLable":"string",
-    "orgPhoneNumber":"string"
-
+  "contactDetails":{
+    "email":"string",
+    "mobile":"string",
+    "alternateMobile":"string"
   },
-  "orgWebsite":{
-    "orgWebsiteLable":"string",
-    "orgWebsiteAddress":"string"
-
+  "socialLinks":{
+    "name":"string",
+    "url":"string"
   }
 }
 }

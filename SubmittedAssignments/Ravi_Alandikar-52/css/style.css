@@ -149,12 +149,19 @@
     margin-left: 95mm;
     margin-right: -4mm;
 }
-.party-phone{
+.party-mobile{
   font-size: 3.6mm;
-  margin-top: -2mm;
+    margin-top: -5mm;
+    margin-bottom: 4mm;
+    margin-left: 80mm;
+
+}
+.alternate-Mobile{
+  font-size: 3.6mm;
+  margin-top: -1mm;
   margin-bottom: 4mm;
   margin-left: 78mm;
-  margin-right: -4mm
+  margin-right: -4mm;
 }
 .party-email{
   font-size: 3.6mm;

@@ -1,15 +1,18 @@
-{  
-"name": "string",
-"uid": "string",
-"masterId": "string",
-"module": "Certificate",
-"config": "object",
-"companyId": "string",
-"issuerId": "string",
-  "data":{
-      "partyName": "string",
-      "partyJobTitle": "string",
-      "partyPhoneNumber": "string",
-      "partyEmailAddress": "string"
+{
+  "name": "string",
+  "uid": "string",
+  "masterId": "string",
+  "module": "Certificate",
+  "config": "object",
+  "companyId": "string",
+  "issuerId": "string",
+  "data": {
+    "party": {
+      "name": "string",
+      "jobTitle": "string",
+      "mobile": "string",
+      "alternateMobile": "string",
+      "email": "string"
+    }
   }
 }
