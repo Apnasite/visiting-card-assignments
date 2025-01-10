@@ -1,0 +1,170 @@
+@font-face {
+  font-family: bld;
+  src: url("../font/Roboto-Black.ttf");
+  font-family: pr;
+  src: url("../font/Roboto-Medium.ttf");
+}
+
+body {
+  background-color: rgb(230, 231, 233);
+}
+
+b {
+  display: inline;
+  font-family: bld;
+  font-size: 6mm;
+  color: #e6bb3c;
+}
+
+strong {
+  font-family: bld;
+  font-size: 6mm;
+  color: #F9F9FB;
+}
+.str2 {
+  font-family: bld;
+  font-size: 6mm;
+  color: black;
+}
+
+p {
+  display: inline;
+  font-family: pr;
+  color: #d5a516;
+}
+
+.foot{
+  position: absolute;
+  padding: 5mm;
+  display: inline-block;
+  color: #75777a;
+  font-family: pr;
+  bottom: 0mm;
+  right: 0mm;
+}
+.hr1 {
+  position: absolute;
+  right: 61mm;
+  height: 0.5mm;
+  bottom: 5mm;
+  width: 8mm;
+  background-color: #edc757;
+}
+.hr4 {
+  position: absolute;
+  right: 61mm;
+  height: 0.5mm;
+  bottom: 5mm;
+  width: 8mm;
+  background-color: #edc757;
+}
+.hr2 {
+  position: absolute;
+  left: 61mm;
+  height: 0.5mm;
+  bottom: 5mm;
+  width: 8mm;
+  background-color: black;
+}
+.hr3 {
+  position: absolute;
+  left: 61mm;
+  height: 0.5mm;
+  bottom: 5mm;
+  width: 8mm;
+  background-color: #F9F9FB;
+}
+
+.cFront {
+  display: block;
+  position: relative;
+  height: 80mm;
+  width: 140mm;
+  top: 10mm;
+  left: 10mm;
+  background-color: #F9F9FB;
+}
+
+.img1 {
+  position: absolute;
+  width: 50mm;
+  right: 45mm;
+}
+
+.img2 {
+  display: inline;
+  width:16mm;
+  background-color: #F9F9FB;
+}
+
+.bdark {
+  position: absolute;
+  width: 140mm;
+  height: 65mm;
+  background-color: black;
+}
+
+.cBack {
+  position: relative;
+  top: 20mm;
+  left: 10mm;
+  height: 80mm;
+  width: 140mm;
+  background-color: #F9F9FB;
+}
+
+.tBlack {
+  text-align: center;
+  align-items: center;
+  top: 0mm;
+}
+
+.bBlack {
+  bottom: 0mm;
+}
+
+.fGoldenBar {
+  bottom: 10mm;
+  left: 0mm;
+}
+
+.bGoldenBar {
+  top: 10mm;
+  right: 0mm;
+}
+
+.goldenBar {
+  position: absolute;
+  height: 10mm;
+  width: 56mm;
+  background: linear-gradient(to right, #ffde7b, #fff8e4,#b08402, #dfc576)
+}
+
+.tag {
+  right: 47mm;
+  position: absolute;
+  display: inline;
+  top: 33mm;
+  text-align: center;
+  color: #edc757;
+}
+.tag1 {
+  position: absolute;
+  display: inline;
+  text-align: center;
+  color: #d5a516;
+}
+.contact{
+  display: inline-block;
+  line-height: 9mm;
+  position: absolute;
+  color: #F9F9FB;
+  top: 24mm;
+  font-family: pr;
+}
+.qr{
+  position: absolute;
+  padding: 5mm;
+  width: 30mm;
+  right: 0mm;
+}
