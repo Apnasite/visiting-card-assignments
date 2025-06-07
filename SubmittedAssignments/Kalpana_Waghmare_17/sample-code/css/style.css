@@ -1,0 +1,252 @@
+@font-face{
+  font-family: myfont;
+  src: url('../fonts/ArchivoNarrow-Regular.ttf');
+}
+@font-face{
+  font-family: name;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+@media all{
+  body.printView, body.printView:before, body.printView:after { 
+    border : none !important;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family:myfont !important;
+  }
+  .card-wrapper{
+    width: 300mm;
+    height: 300mm;
+    background-image: url('../IMG/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    margin: auto;
+  }
+  .card-wrapper .card-front-wrapper{
+    width: 80mm;
+    height: 140mm;
+    position: absolute;
+    top: 20mm;
+    left: 110mm;
+    background-color: white;
+    border-radius: 5mm;  
+    z-index: 1;
+  }
+  .card-front-wrapper .front-background .rect{
+    position: relative;
+    top: 37mm;
+    left: 10mm;
+    width: 8mm;
+    height: 66mm;
+    background-color: #3498db;
+    z-index: 2;
+  }
+  .card-front-wrapper .front-background .tritop{
+    position: absolute;
+    left: 12.3mm;
+    top: 40.9mm;
+    width: 15mm;
+    height: 10mm;
+    background-color: #3498db;
+    transform: rotate(45deg);
+  }
+  .card-front-wrapper .front-background .tribottom{
+    position: absolute;
+    left: 3.7mm;
+    top: 91.86mm;
+    width: 10mm;
+    height: 9mm;
+    background-color: #3498db;
+    transform: rotate(35deg);
+  }
+  .card-front-wrapper .front-background .rectbottom1{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 0mm solid transparent ;
+    border-right: 40mm solid transparent;
+    border-top: 8mm solid rgb(0,0,0,0.3);
+    top: 140mm;
+    filter: blur(2mm);
+  }
+  .card-front-wrapper .front-background .rectbottom2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 0mm solid transparent ;
+    border-left: 40mm solid transparent;
+    border-top: 8mm solid rgb(0,0,0,0.3);
+    top:  140mm;
+    left: 40mm;
+    z-index: 2;
+    filter: blur(2mm);
+  }
+  .card-front-wrapper .front-content .person-details{
+    width: 70mm;
+    position: absolute;
+    top: 15mm;
+    font-size: 13pt;
+    text-align: right;
+    color: #20314d;
+    line-height: normal;
+  }
+  .card-front-wrapper .front-content .person-details #person-name {
+    margin: 0;
+    font-size: 23pt;
+    font-style: name ;
+  }
+  .card-front-wrapper .front-content .person-details #person-name span{
+    color: #3498db;
+    margin-right: 2mm;
+    font-weight: 600;
+  }
+  .card-front-wrapper .front-content .contact-us{
+    position: absolute;
+    top: 40mm;
+    font-size: 10pt;
+    width: 80mm;
+    height: 60mm;
+    background-color: #0a0e14;
+  }
+  .card-front-wrapper .front-content .contact-us .icon{
+    position: relative;
+    left: 11mm;
+    color: white;
+    font-size: 15pt;
+    margin: 1mm auto;
+    z-index: 4;
+  }
+  .contact-us .phone .icon .bi-telephone{
+    position: relative;
+    top: 4mm;
+  }
+  .contact-us .email .icon .bi-envelope{
+    position: relative;
+    top: 6mm;
+  }
+  .contact-us .location .icon .bi-geo-alt{
+    position: relative;
+    top: 14mm;
+  }
+  .contact-us .website .icon .bi-globe{
+    position: relative;
+    top: 18mm;
+  }
+  .card-front-wrapper .front-content .contact-us .contact-info{
+    width: 55mm;
+    position: absolute;
+    left: 20mm;
+    color: rgb(233, 233, 233);
+    font-size: 12pt;
+    z-index: 4;
+  }
+  .card-front-wrapper .front-content .contact-us #phonenumber{
+    top: 5mm;
+  }
+  .card-front-wrapper .front-content .contact-us #emailId{
+    top: 17mm;
+  }
+  .card-front-wrapper .front-content .contact-us #adrress{
+    top: 29mm;
+  }
+  .card-front-wrapper .front-content .contact-us #webaddress{
+    top: 47mm;
+  }
+  .card-front-wrapper .front-content .qr-code{
+    position: absolute;
+    left: 25mm;
+    top: 105mm;
+    width: 25mm;
+    height: auto;
+  }
+  .card-front-wrapper .front-content .qr-code img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(119, 117, 117);
+  }
+  .card-wrapper .card-back-wrapper{
+    width: 80mm;
+    height: 140mm;
+    position: absolute;
+    top: 20mm;
+    left: 220mm;
+    background-color: white;
+    border-radius: 5mm;
+  }
+  .card-back-wrapper .back-background, .card-front-wrapper .front-background{
+    width: 80mm;
+    height: 140mm;
+    position: absolute;
+  }
+  .card-back-wrapper .back-background .recttop{
+    width: 80mm;
+    height: 6mm;
+    border-top-left-radius: 5mm;
+    border-top-right-radius: 5mm;
+    background-color: #3498db;
+  }
+  .card-back-wrapper .back-background .recttopcenter{
+    width: 35mm;
+    height: 6mm;
+    background-color: #5dade2;
+    position: absolute;
+    left: 22mm;
+    top: 0mm;
+    z-index: 2;
+  }
+  .card-back-wrapper .back-background .rectbottom{
+    width: 80mm;
+    height: 6mm;
+    border-bottom-left-radius: 5mm;
+    border-bottom-right-radius: 5mm;
+    background-color: #3498db;
+    position: absolute;
+    top: 134mm;
+    z-index: 3;
+  }
+  .card-back-wrapper .back-background .rectbottomcenter{
+    width: 35mm;
+    height: 6mm;
+    background-color: #5dade2;
+    position: absolute;
+    left: 22mm;
+    top: 134mm;
+    z-index: 4;
+  }
+  .card-back-wrapper .back-background .rectbottom3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 0mm solid transparent ;
+    border-right: 70mm solid transparent;
+    border-top: 16mm solid rgb(0,0,0,0.3);
+    top: 135mm;
+    filter: blur(2mm);
+  }
+  .card-back-wrapper .back-background .rectbottom4{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 0mm solid transparent ;
+    border-left: 60mm solid transparent;
+    border-top: 15mm solid rgb(0,0,0,0.3);
+    top:  135mm;
+    left: 20mm;
+    z-index: 2;
+    filter: blur(2mm);
+
+  }
+  .card-back-wrapper .back-content .logo{
+    width: 40mm;
+    height: 20mm;
+    position: absolute;
+    top: 55mm;
+    left: 20mm;
+  }
+  .card-back-wrapper .back-content .logo img{
+    width: 100%;
+    height: 100%;
+  }
+}
