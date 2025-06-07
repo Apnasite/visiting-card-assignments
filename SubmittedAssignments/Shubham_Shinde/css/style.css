@@ -1,0 +1,495 @@
+
+body{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #24282c;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+                                                /* Content */
+
+
+.card-wrapper-card-front{
+  height: 100mm;
+  width: 177mm;
+  margin: 20mm auto;
+  background-color: #003746;
+  border-radius: 7mm;
+  position: relative;
+  z-index: 1;
+  }
+
+  .card-wrapper-card-front .card1-background{
+    height: 10mm;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+.card-wrapper-card-front .left-big{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 12mm;
+    transform: rotate(40deg);
+    background-color: #00638a;
+  }
+ .card-wrapper-card-front .left-mid{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 32mm;
+    transform: rotate(40deg);
+    background-color: #fefeff;
+  }
+   .card-wrapper-card-front .left-small{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 53mm;
+    transform: rotate(40deg);
+    background-color:#fc0000;
+  }
+  
+                                                /* Card bottom Side */
+  
+  
+  .card-wrapper-card-front .card1-content{
+    height: 3mm;
+    width: 100%;
+    background-color: black;
+    /* position: absolute; */
+    overflow: hidden;
+    z-index: -1;
+    margin: 11mm 3mm 0mm -1mm;
+  }
+ .card-wrapper-card-front .party-name{
+    height: 7mm;
+    width: 13mm;
+    margin: -2mm 0mm 0mm 7mm;
+    background-color: #00638a;
+  }
+  .card-wrapper-card-front .party-job-title{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 27mm;
+    background-color: #fefeff;
+  }
+ .card-wrapper-card-front .company{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 49mm;
+    background-color:#fc0000;
+  }
+
+                            /* company logo */
+   .card1-content .qr-code{
+    height: 50mm;
+    /* border: 2mm solid red; */
+    margin: 7mm auto;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+  .card-wrapper-card-front .company-content .logo {
+    margin: 13mm 0mm 0mm 0mm;
+  
+  }
+  .qr-code img{
+    height: 15mm;
+    margin: 13mm 0mm 0mm 0mm;
+  }
+
+
+   .card-wrapper-card-front .qr-code h1{
+    color: #d71920;
+    margin:25mm 0mm 0mm -48mm;
+    font-family: company;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+  }
+  
+   .card-wrapper-card-front .qr-code p{
+    margin: 35mm 0mm 0mm -38mm;
+    color: #97a8aa;
+    font-family: slogan;
+    font-weight: lighter;
+    letter-spacing: 1mm;
+  }
+  
+  
+                                                    /* First card bottom */
+  
+ .card-wrapper-card-front .card-first-bottom{
+    height: 10mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-bottom-left-radius: 7mm;
+    border-bottom-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    bottom: 0mm;
+    left: 0mm;
+  }
+ .card-wrapper-card-front .card-first-bottom .square1{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 138mm;
+    transform: rotate(40deg);
+    background-color: #00638a;
+  }
+ .card-wrapper-card-front .card-first-bottom .square2{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 118mm;
+    transform: rotate(40deg);
+    background-color: #fefeff;
+  }
+ .card-wrapper-card-front .card-first-bottom .square3{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 98mm;
+    transform: rotate(40deg);
+    background-color:#fc0000;
+  }
+  
+  
+  
+    .card-wrapper-card-front .card-bottom-second{
+    height: 3mm;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 72mm 0mm 0mm 0mm;
+
+  }
+    .card-wrapper-card-front .bottom-square1{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -2mm 0mm 0mm 141mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+    .card-wrapper-card-front .bottom-square2{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 122mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+    .card-wrapper-card-front .bottom-square3{
+    height: 7mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -7mm 0mm 0mm 103mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }
+  
+
+
+    .card-wrapper-card-back{
+      height: 100mm;
+      width: 177mm;
+      margin: -8mm auto;
+      box-shadow: 4mm 3mm 10mm black;
+      justify-content: space-between;
+      background-color: #ffffff;
+      border-radius: 7mm;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;;
+}
+
+  .card-wrapper-card-back .card2-background{
+    height: 100%;
+    width: 10mm;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-bottom-left-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+  }
+    .card-wrapper-card-back .Right-big{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: 70mm 0mm 0mm 2mm;
+    transform: rotate(-51deg);
+    background-color: #00638a;
+  }
+    .card-wrapper-card-back .Right-mid{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -48mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color: #ffffff;
+  }
+    .card-wrapper-card-back .Right-small{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -46mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color:#fc0000;
+  }
+  
+                                            /* Card-Back-small-Side left Side*/
+  
+    .card-wrapper-card-back .card-back-second{
+    height: 4mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 13mm 0mm 0mm -76mm;
+    transform: rotate(-90deg);
+  }
+    .card-wrapper-card-back .left1-box1{
+    height: 30mm;
+    width: 12mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 10mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+    .card-wrapper-card-back .left1-box2{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 26mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+    .card-wrapper-card-back .left1-box3{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 42mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }
+    .left1-box4{
+    height: 100mm;
+    width: 14mm;
+    /* border: 1pt solid red; */
+    background-color: #00648c;
+    /* border-top-left-radius: 7mm; */
+    /* border-top-right-radius: 7mm; */
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0mm 0mm 0mm 14mm;
+
+  }
+    .left1-box4 i{
+    font-size: 8mm;
+    margin: 31mm 0mm 0mm 4mm;
+  }
+    .left1-box4 .email-icon{
+    margin: -17mm 0mm 0mm 0mm;
+  }
+    .left1-box4 .phone-icon{
+    margin: -27mm 0mm 0mm 0mm;
+  }
+    .left1-box4 .web-icon{
+    margin: -25mm 0mm 0mm 0mm;
+  }
+    .left1-box4 .user-icon{
+    margin: -18mm 0mm -16mm 0mm;
+  }
+
+                /* Bottom back-card-middle-headlight */
+  
+    .card-wrapper-card-back .bottom-card-middle{
+    /* border: 1pt solid red; */
+    height: 78mm;
+    width: 115mm;
+    margin: 8mm 0mm 0mm 29mm;
+    /* display: flex;  */
+    /* justify-content: space-around; */
+    /* position: relative; */
+  }
+    .card-wrapper-card-back .bottom-card-middle .middle1{
+     /* border: 1pt solid yellow;
+     height: 28mm;
+     width: 58mm; */
+     margin: -5mm 0mm -2mm 0mm;
+     /* position: absolute; */
+  }
+    .card-wrapper-card-back .bottom-card-middle .name{
+    font-size: 13pt;
+    text-transform: uppercase;
+  }
+
+    .card-wrapper-card-back .bottom-card-middle .name .first-word{
+    color: #ff160d;
+  }
+    .card-wrapper-card-back .bottom-card-middle .job-title{
+  
+  }
+    .card-wrapper-card-back .bottom-card-middle .company{
+  
+  }
+    .card-wrapper-card-back .bottom-card-middle .underline{
+    height: 2mm;
+    width: 30mm;
+    /* border: 1mm solid red; */
+    background-color: red;
+    background-image: linear-gradient(to right, blue,black,orange,red ,blue,black,orange,red);
+  }
+
+    .card-wrapper-card-back .bottom-card-middle .contact-info{
+    /* border: 2pt solid yellow; */
+    height: 52mm;
+    width: 65mm;
+    margin: 7mm 0mm 0mm 0mm;
+
+  }
+    .card-wrapper-card-back  .bottom-card-middle .logo2{
+    margin: -12mm 0mm 0mm 0mm;
+  }
+
+    .card-wrapper-card-back  .bottom-card-middle .logo2 img{
+    /* height: 72mm; */
+    /* width: 165px; */
+    /* border: 3px solid; */
+    margin: -60mm 0mm 54mm 70mm;
+    height: 10mm;
+  }
+    .card-wrapper-card-back  .bottom-card-middle .logo3 img{
+    /* height: 72mm; */
+    /* width: 165px; */
+    /* border: 3px solid; */
+    margin: -45mm 0mm 40mm 77mm;
+    height: 30mm;
+  }
+    .card-wrapper-card-back .bottom-card-middle .org-address{
+    margin: 5mm 50mm 4mm 0mm;
+  }
+    .card-wrapper-card-back .bottom-card-middle .org-email{
+    margin: 0mm 0mm 4mm 0mm;
+  }
+    .card-wrapper-card-back .bottom-card-middle .org-phone{
+    margin: 9mm 0mm 7mm 0mm;
+  }
+  
+                                /* Card-back-right-side */
+  
+    .card-wrapper-card-back .card2-content{
+    margin: 20mm 0mm -47mm 96mm;
+  }
+    .card-wrapper-card-back .card2-content .logo2 img{
+      height: 10mm;
+      margin: 5mm 0mm -7mm 15mm;
+  }
+    .card-wrapper-card-back .card2-content .logo3 img{
+      height: 30mm;
+      margin: 21mm 0mm -39mm 22mm;
+  }
+  
+  .card-wrapper-card-back .org-name{
+    margin: 10mm 0mm 0mm 50mm;
+  }
+  
+    .card-wrapper-card-back  .card-bottom-first{
+    height: 100%;
+    width: 10mm;
+    /* border: 1pt solid red; */
+    background-color: black;
+    border-top-right-radius: 6mm;
+    border-bottom-right-radius: 7mm;
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+    margin: 0mm 0mm 0mm 167mm;
+  }
+    .card-wrapper-card-back .right-box1{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: 0mm 0mm 0mm 0mm;
+    transform: rotate(-51deg);
+    background-color: #00638a;
+  }
+    .card-wrapper-card-back .right-box2{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -14mm 0mm 0mm -1mm;
+    transform: rotate(-51deg);
+    background-color: #ffffff;
+  }
+    .card-wrapper-card-back .right-box3{
+    height: 30mm;
+    width: 10mm;
+    /* border: 5pt solid yellow; */
+    margin: -13mm 0mm 0mm -1mm;
+    transform: rotate(-51deg);
+    background-color:#fc0000;
+  }
+  
+  
+  /*Card-back-right-side-small  */
+  
+    .card-wrapper-card-back .card-bottom-second{
+    height: 4mm;
+    width: 100%;
+    /* border: 1pt solid red; */
+    background-color: black;
+    /* border-top-left-radius: 7mm;
+    border-top-right-radius: 7mm; */
+    position: absolute;
+    overflow: hidden;
+    /* z-index: -1; */
+    margin: 82mm 0mm 0mm 76mm;
+    transform: rotate(90deg)
+  }
+    .card-wrapper-card-back .right1-box1{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -10mm 0mm 0mm 10mm;
+    /* transform: rotate(40deg); */
+    background-color: #00638a;
+  }
+    .card-wrapper-card-back .right1-box2{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 26mm;
+    /* transform: rotate(40deg); */
+    background-color: #fefeff;
+  }
+    .card-wrapper-card-back .right1-box3{
+    height: 30mm;
+    width: 13mm;
+    /* border: 5pt solid yellow; */
+    margin: -29mm 0mm 0mm 42mm;
+    /* transform: rotate(40deg); */
+    background-color:#fc0000;
+  }
