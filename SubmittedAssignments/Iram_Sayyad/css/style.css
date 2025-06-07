@@ -1,0 +1,315 @@
+@font-face {
+  font-family: sub;
+  src: url(../font/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: cub;
+  src: url(../font/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: other;
+  src: url(../font/Raleway-Light.ttf);
+}
+
+.card-wrapper {
+    position: relative;
+    width: 90mm;
+    height: 52mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card1-background {
+    background-color: #ffffff;
+    height:52mm;
+}
+
+.bottom-left-front-triangle {
+  position: absolute;
+  left: 0mm;
+  bottom: 0mm;
+  width: 0mm;
+  height: 0mm;
+  border-bottom: 60pt solid #0098a0;
+  border-right: 61pt solid transparent;
+}
+
+.orange-line-front-bottom {
+  position: absolute;
+  left: 0mm;
+  bottom: 0mm;
+  width: 1mm;
+  height: 24mm;
+  background-color: #ff961b;
+  transform: skew(46deg);
+  z-index: 2;
+}
+
+.black-line-front-bottom {
+  position: absolute;
+  left: 0mm;
+  bottom: 0mm;
+  width: 1mm;
+  height: 31mm;
+  background-color: black;
+  transform: skew(46deg);
+  z-index: 2;
+}
+
+
+.dark-orange-light-front-line {
+  position: absolute;
+  left: 0mm;
+  bottom: 0mm;
+  width: 7mm;
+  height: 50mm;
+  background-color: #ff961b; /* #ffb035; */
+  transform: skew(46deg);
+  border-right: 4mm solid #ffb033;
+}
+
+.top-right-front-triangle {
+  position: absolute;
+  right: 0mm;
+  top: 0mm;
+  width: 0mm;
+  height: 0mm;
+  border-top: 80pt solid #0098a0;
+  border-left: 81pt solid transparent;
+}
+
+.orange-line-front-top {
+  position: absolute;
+  right: 5mm;
+  top: 0mm;
+  width: 2mm;
+  height: 23mm;
+  background-color: #ff961b;
+  transform: skew(46deg);
+} 
+
+.black-line-front-top {
+  position: absolute;
+  right: 10mm;
+  top: 0mm;
+  width: 2mm;
+  height: 24mm;
+  background-color: black;
+  transform: skew(46deg);
+}
+
+.dark-orange-light-front-top-line {
+  position: absolute;
+  right: 0mm;
+  top: 0mm;
+  width: 7mm;
+  height: 69mm;
+  background-color: #ff961b;
+  transform: skew(46deg);
+  border-left: 4mm solid #ffb035;
+}
+
+.card1-content {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    width: 90mm;
+    height: 52mm;
+}
+.party-name {
+    position: absolute;
+    top: 21mm;
+    left: 26mm;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-family: sub;
+}
+.surname {
+  font-family: other;
+  color:#ccc;
+}
+
+.party-job-title {
+    position: absolute;
+    top: 30mm;
+    left: 26mm;
+    font-size: 9pt;
+    text-transform: uppercase;
+}
+  .qr-img
+  {
+    width: 15mm;
+    height: 15mm;
+  }
+
+.qr-code {
+    top: 5mm;
+    left: 4mm;
+    position: absolute;
+}
+.company {
+  position: absolute;
+  top: 0mm;
+  left: 4mm;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #14979e;
+}
+#phone-icon {
+  color: black;
+}
+.party-phone-lable {
+  font-weight: bold;
+  margin-left : 2mm;
+}
+.party-phone {
+  position: absolute;
+  right: 10mm;
+  bottom: 5mm;
+  font-size: 8pt;
+}
+#envelope-icon{
+  color: black;
+}
+.party-email-lable {
+  font-weight: bold;
+  margin-left : 2mm;
+} 
+.party-email {
+  position: absolute;
+  right: 1mm;
+  bottom: 1mm;
+  font-size: 8pt;
+} 
+.card2-background
+  {
+    background-color: #ffffff;
+    height: 52mm;
+  }
+
+  .bottom-left-back-triangle {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 0mm;
+    height: 0mm;
+    border-bottom: 80pt solid #0098a0;
+    border-right: 81pt solid transparent;
+}
+
+.orange-line-back-bottom {
+    position: absolute;
+    left: 5mm;
+    bottom: 0mm;
+    width: 2mm;
+    height: 23mm;
+    background-color: #ff961b;
+    transform: skew(46deg);
+} 
+
+.black-line-back-bottom {
+    position: absolute;
+    left: 10mm;
+    bottom: 0mm;
+    width: 2mm;
+    height: 24mm;
+    background-color: black;
+    transform: skew(46deg);
+}
+
+.dark-orange-light-back-line {
+    position: absolute;
+    left: 0mm;
+    bottom: 0mm;
+    width: 7mm;
+    height: 69mm;
+    background-color: #ff961b;
+    transform: skew(47deg);
+    border-right: 4mm solid #ffb035;
+}
+
+.top-left-back-triangle {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 0mm;
+    height: 0mm;
+    border-top: 60pt solid  #0098a0;
+    border-right: 61pt solid transparent;
+    z-index: 2;
+}
+
+.orange-line-back-top {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 1mm;
+    height: 24mm;
+    background-color: #ff961b;
+    transform: skew(-47deg);
+    z-index: 2;
+}
+
+.black-line-back-top {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 1mm;
+    height: 32mm;
+    background-color: black;
+    transform: skew(-45deg);
+    z-index: 2;
+}
+/* card-backside content*/
+.card2-content {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    height: 53mm;
+    width: 90mm;
+    text-align: right;
+}
+.org-logo {
+    position: absolute;
+    top: 1mm;
+    right: 1mm;
+}
+.org-logo-img {
+  width: 33mm;
+  height: 10mm;
+}
+.org-name {
+    position: absolute;
+    top: 11mm;
+    right: 1mm;
+    margin-left: 26mm;
+    font-size: 10pt;
+    text-transform: uppercase;
+    font-family: cub;
+}
+.org-address {
+    position: absolute;
+    right: 1mm;
+    bottom: 16mm;
+    margin-left:29mm;
+    font-size: 7pt;
+}
+.org-email {
+    position: absolute;
+    right: 3mm;
+    bottom: 6mm;
+    font-size: 9pt;
+}
+.org-phone {
+    position: absolute;
+    right: 4mm;
+    bottom: 11mm;
+    font-size: 9pt;
+}
+.org-website {
+    position: absolute;
+    bottom: 2mm;
+    right: 1.5mm;
+    font-size: 9pt;
+}
