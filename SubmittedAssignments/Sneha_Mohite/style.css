@@ -1,0 +1,395 @@
+@media all{
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+.card-wrapper{
+ 
+ margin: auto;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+   position: relative;
+}
+
+.card-background{
+ 
+    height: 105mm;
+    width: 133%;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: -7mm;
+    top: 97mm;
+}
+
+
+.card1-background{
+    height:100mm;
+    width: 150mm;
+    /* border: 1px solid black; */
+	top:34mm;
+	left:28mm;
+    border-radius: 5mm;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    /* text-align: center; */
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card1-content{
+      text-align: center;
+      margin-top: 44mm;
+
+}
+.company-logo{
+    position: relative;
+    top: -131pt;
+    left: 40pt;
+    height: 30mm;
+    z-index: 2;
+
+}
+.company-logo-img{
+    width: auto;
+		max-height: 42mm;
+		max-width: 100%;
+}
+.left-big {
+
+   height: 11mm;
+    width: 178mm;
+    transform: skew(0deg);
+    background: rgb(1, 32, 63);
+    top: 84mm;
+    left: 0mm;
+    position: absolute;
+}
+.left-big1 {
+
+	height: 1mm;
+    width: 178mm;
+    background: gray;
+    top: 95mm;
+    left: 0mm;
+    position: absolute;
+}
+
+.right-bottom{
+    height: 8mm;
+    width: 95mm;
+    transform: skewX(29deg);
+    border-top-left-radius: 0px;
+    background: rgb(1, 32, 63);
+    top: -1mm;
+    left: 23mm;
+    position: absolute;
+    text-align: center;
+}
+.right-bottom2{
+  height: 1mm;
+    width: 104mm;
+    background: gray;
+    top: 7mm;
+    left: 25mm;
+    position: absolute;
+}
+
+.right-bottom1{
+  height: 8mm;
+    width: 35mm;
+    transform: skewX(-27deg);
+    border-top-left-radius: 0px;
+    background: rgb(1, 32, 63);
+    top: -1mm;
+    left: 96mm;
+    position: absolute;
+    text-align: center;
+}
+.right-bottom3{
+ height: 8mm;
+    width: 1mm;
+    transform: skewX(-27deg);
+    background: gray;
+    top: -1mm;
+    left: 130mm;
+    position: absolute;
+    text-align: center;
+}
+.right-bottom4{
+    height: 8mm;
+    width: 1mm;
+    transform: skewX(29deg);
+    background: gray;
+    top: -1mm;
+    left: 23mm;
+    position: absolute;
+    
+}
+
+ .party-name {
+    top: 84mm;
+    left: 105mm;
+    width: 166pt;
+    font-size: 5.9mm;
+    font-weight: bold;
+    position: absolute;
+
+}
+  .party-job-title {
+      font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-size: 11pt;
+    margin-top: -238pt;
+    position: absolute;
+    margin-left: 123mm;
+
+  }
+
+.company{
+    top: 121mm;
+    left: 127mm;
+    position: absolute;
+    font-size: 15pt;
+    word-spacing: 2mm;
+    color: white;
+}
+#name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28pt;
+}
+
+
+.card2-background{
+   height: 100mm;
+    width: 150mm;
+    top: -151mm;
+    left: 30mm;
+    border-radius: 5mm;
+    overflow: hidden;
+    position: relative;
+    margin-top: 13mm;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.right-big{
+    height: 101mm;
+    width: 13mm;
+    transform: skew(0deg);
+    /* border-bottom-right-radius: 20px; */
+    background: rgb(1, 32, 63);
+    top: -1mm;
+    left: 0mm;
+    position: absolute;
+    overflow: hidden;
+}
+.company2 {
+  top: -104mm;
+    left: 159mm;
+    width: 166pt;
+    font-size: 4.9mm;
+    font-weight: bold;
+    position: absolute;
+}
+.title{
+	position: absolute;
+    top: -98mm;
+    left: 176mm;
+    font-size: 4mm;
+}
+
+.QR{
+    font-size: 26mm;
+    position: absolute;
+    right: 0px;
+    top:7mm ;
+    padding-right: 50px;
+}
+
+.left-content{
+    top: -141mm;
+    position: absolute;
+    overflow: hidden;
+    left: 74mm;
+}
+
+.right-small{
+    height: 70mm;
+    width: 14mm;
+    transform: skewY(26deg);
+    /* border-top-right-radius: 20px; */
+    background: rgb(1, 32, 63);
+    top: 35mm;
+    left: 12mm;
+    position: absolute;
+}
+
+.org-name
+  {
+   position: absolute;
+    top: -416pt;
+    left: 212pt;
+    font-style: normal;
+    font-size: 14pt;
+    color: rgb(1, 32, 63);
+}
+  
+.org-logo-img {
+    width: 30mm;
+    position: relative;
+    top: -675pt;
+    left: 231pt;
+    height: 30mm;
+}
+.front-content{
+    position: absolute;
+}
+p{
+    margin-left:-26mm;
+    font-weight: normal;
+}
+
+.right-content2{
+```````
+   position: absolute;
+    top: -108mm;
+    left: 134mm;
+    color: black;
+    line-height: 7mm;
+    display: flex;
+    text-decoration: none;
+    padding: 5mm;
+    text-align: right;
+
+}
+.midline{
+    width: 1mm;
+    height: 70mm;
+    top: 19mm;
+    left: 106mm;
+    background: gray;
+    position: absolute;
+    z-index: 5;
+}
+.leftline{
+	width: 34mm;
+    position: absolute;
+    top: 26mm;
+    left: 21mm;
+    background-color: gray;
+    height: 1mm;
+}
+.midline1{
+  width: 1mm;
+    height: 62mm;
+    top: 38.5mm;
+    left: 25mm;
+    background: gray;
+    position: absolute;
+    z-index: 5;
+}
+.midline2{
+  width: 1mm;
+    height: 38mm;
+    top: -5.5mm;
+    left: 13mm;
+    background: gray;
+    position: absolute;
+    z-index: 5;
+
+}.midline3{
+ transform: rotate(-64deg);
+    width: 1mm;
+    height: 15mm;
+    top: 28mm;
+    left: 20mm;
+    background: gray;
+    position: absolute;
+    z-index: 5;
+}
+.card2-content .org-address{
+    position: absolute;
+    left: 71mm;
+    top: -72mm;
+    color: rgb(18, 34, 58);
+    font-size: 18pt;
+    z-index: 9;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+  }
+  
+  .card2-content .org-email
+    {
+        position: absolute;
+        left: 71mm;
+        top: -92mm;
+        color: rgb(18, 34, 58);
+        font-size: 18pt;
+        z-index: 9;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: bold;
+    }
+    
+    .card2-content   .org-phone
+    {
+        position: absolute;
+        left: 71mm;
+        top: -103mm;
+        color: rgb(18, 34, 58);
+        font-size: 18pt;
+        z-index: 9;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: bold;
+    }
+  .qr img{
+    top: 60mm;
+    left: 110mm;
+    position:absolute;
+    height:30mm;
+    width:30mm;
+  }
+    .card2-content   .org-website
+    {
+        position: absolute;
+        left: 71mm;
+        top: -83mm;
+        color: rgb(18, 34, 58);
+        font-size: 18pt;
+        z-index: 9;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: bold;
+    }
+.icon ul{
+    list-style: none;
+    color: black;
+    
+}
+.icon{
+    background: white;
+    padding: 2mm;
+    border-radius: 7mm;
+    margin-left:5mm;
+}
+
+.fa  {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 900);
+    color: rgb(18, 34, 58);
+    background-color: gray;
+    border-radius: 50%;
+    line-height: 1.5;
+    background-size: cover;
+    position: absolute;
+    height: 8mm;
+    width: 9mm;
+    left: -2mm;  
+}
+}
+
+
