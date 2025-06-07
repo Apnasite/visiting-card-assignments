@@ -1,0 +1,477 @@
+*{
+  margin: 0px;
+  /* padding: 0px; */
+  font-family: sans-serif;
+  
+}
+
+
+.container-fluid{
+  position: absolute;
+  height: 100%;
+  background-color: #E5E4E2;
+}
+.middle{
+  display: flex;
+  align-items: center;
+}
+.card-wrapper{
+  margin: auto;
+  position: relative;
+    z-index: 0;
+  /* width: 50%; */
+  /* padding: 26mm; */
+  /* background-image: radial-gradient(gray); */
+}
+.card-wrapper1{
+  
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    /* width: 50%; */
+    /* padding: 26mm; */
+    /* background-image: radial-gradient(gray); */
+  }
+
+
+.card-background{
+  background-color: rgb(206, 204, 204);
+  height: 104mm;
+  width: 133%;
+  transform: rotate(-17deg);
+  position: absolute;
+  left: -60mm;
+  top: 78mm;
+}
+
+.card2-background{
+  display : flex;
+  align: center;
+  height:100mm;
+  width: 150mm;
+  border-radius: 5mm;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+
+.left-bottom{
+
+  height: 21mm;
+  width: 47mm;
+  transform: skew(-24deg);
+  border-bottom-right-radius: 20px;
+  background: rgb(1, 32, 63);
+  top: 60mm;
+  left: -4mm;
+  position: absolute;
+  overflow: hidden;
+}
+
+.right-bottom{
+  height: 21mm;
+  width: 118mm;
+  transform: skew(-23deg);
+  border-top-left-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 60mm;
+  left: 52mm;
+  position: absolute;
+  text-align: center;
+}
+
+
+
+
+.card1-background{
+  height:100mm;
+  width: 150mm;
+  /* border: 1px solid black; */
+  border-radius: 5mm;
+  overflow: hidden;
+  position: relative;
+  margin-top: 13mm;
+  background-color: #36454F;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.left-top{
+  height: 24mm;
+  width: 68mm;
+  transform: skew(-24deg);
+  border-bottom-right-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 9mm;
+  left: -8mm;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.right-bottom2{
+  height: 47mm;
+  width: 112.44mm;
+  transform: skew(-34deg);
+  border-top-left-radius: 40px;
+  background: rgb(1, 32, 63);
+  top: 40mm;
+  left: 54mm;
+  position: absolute;
+}
+.bottom{
+  height: 16mm;
+  width: 160mm;
+  transform: skew(-23deg);
+  border-top-left-radius: 20px;
+  background: rgb(255, 177, 27);
+  top: 85mm;
+  left: 20mm;
+  position: absolute;
+}
+
+
+
+
+
+
+/* 
+body {
+  font-family: 'Arial', sans-serif;
+} */
+
+
+
+
+.card2-content
+{
+ 
+  position: absolute;
+  top: 61%;
+  left: 53%;
+  
+  transform: translate(-30%, -50%);
+  text-align: start;
+  
+  
+}
+.below_qr{
+  position: absolute;
+  left: -59mm;
+  
+  
+}
+.party-name
+{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 1.9em;
+  font-weight: bold; 
+}
+
+.party-job-title
+{
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 1.4em;
+  margin-top: -1pt;
+}
+
+.qr-img
+{
+  position: absolute;
+  top: -40mm;
+  left: -60mm;  
+  z-index: 2;
+}
+
+
+
+.company
+{
+  font-weight: 700;
+  font-size: 1.0em;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: -1pt;
+}
+
+.party-phone
+{
+font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: 16pt;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.party-email
+{
+font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.party-phone-lable
+{
+  font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+    
+}
+
+.party-phone-number
+{
+  font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+}
+
+.party-email-lable
+{
+  font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    padding-left: 3pt;
+}
+
+.party-email-address
+{
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+  
+}
+
+
+
+
+
+
+
+
+
+.card1-content
+{
+  position: relative;
+  z-index: 3;
+  top: 50%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+.content1{
+  position: absolute;
+  left: 110mm;
+}
+
+
+.side-content {
+  position: absolute;
+  top: -28mm;
+  left: 50mm;
+  z-index: 6;
+}
+.side-content .all_icons img{
+ 
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1.5pt solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.side-para{
+  position: absolute;
+  top: -28mm;
+  left: 20mm;
+  width: 100px;
+  color: white;
+  z-index: 5;
+}
+.side-para p{
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.org-logo-img
+{
+  position: relative;
+  top: -22pt;
+  left: 0pt;
+}
+.vertical-line {
+  position: absolute;
+  top: 11mm;
+  left: 3.6mm;
+  width: 1px;
+  height: 23px; /* Adjust this to the height you need */
+  background-color: white;
+  z-index: 5;
+}
+.vertical-line2 {
+  position: absolute;
+  top: 25mm;
+  left: 3.6mm;
+  width: 1px;
+  height: 25px; /* Adjust this to the height you need */
+  background-color: white;
+  z-index: 5;
+}
+.org-name
+{
+  line-height: 94%;
+  text-align-last: inherit;
+  position: relative;
+  top: -16pt;
+  left: 3pt;
+  font-style: oblique;
+  font-size: 13pt;
+}
+
+.org-address
+{
+  position: absolute;
+  top: 28pt;
+  left: 14px;
+  font-style: normal;
+  font-size: 7pt;
+}
+
+
+
+.org-email
+{
+  position: absolute;
+  top: 58pt;
+  left: 49pt;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.org-phone
+{
+  position: relative;
+  top: 27pt;
+  left: 3px;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.org-website
+{
+  position: relative;
+  top: 25pt;
+  left: 11pt;
+  font-style: normal;
+  font-size: 9pt;
+}
+
+.triangle-right1{
+  position: absolute;
+  top: -50mm;
+  left: 10mm;
+  border-top: 225px solid transparent;
+	border-left: 250px solid white;
+	border-bottom: 275px solid transparent;
+  z-index : 0;
+}
+.triangle-right2{
+  position: absolute;
+  top: -5mm;
+  left: -70mm;
+  border-top: 115px solid transparent;
+	border-left: 110px solid #ff6961;;
+	border-bottom: 125px solid transparent;
+  z-index: 1;
+}
+.triangle-right3{
+  position: absolute;
+  top:-75mm;
+  left: 10mm;
+  border-top: 205px solid transparent;
+	border-left: 200px solid #ffd700;
+	border-bottom: 155px solid transparent;
+  z-index: -2;
+}
+
+.triangle-left1{
+  position: absolute;
+  left: -4mm;
+  top: -155mm;
+  
+	border-top: 525px solid transparent;
+	border-right: 550px solid #36454F;
+	border-bottom: 925px solid transparent;
+  z-index : 0;
+}
+.triangle-left2{
+  position: absolute;
+  left: 50mm;
+  top:  17mm;
+  border-top: 125px solid transparent;
+	border-right: 150px solid #ff6961;
+	border-bottom: 125px solid transparent;
+  z-index: 1;
+}
+.triangle-left3{
+  position: absolute;
+  top: -18mm;
+  left: -5mm;
+
+  border-top: 125px solid transparent;
+	border-right: 150px solid #ffd700;
+	border-bottom: 225px solid transparent;
+  z-index: -3;
+}
+
+.logo_M{
+  position: absolute;
+  top: -20mm;
+  left: 7mm;
+  background-color: white;
+  
+  width: 55px;
+  height: 55px;
+}
+.logo_M h1{
+  position: absolute;
+  top: -3mm;
+  left: -2mm;
+  font-weight: 9000;
+  
+  font-size: 66px;
+  color: #36454F;
+}
+.logo_M2{
+  position: absolute;
+  top: -17mm;
+  left: -3mm;
+  background-color: white;
+  width: 33px;
+  height: 34px;
+}
+.logo_M2 h1{
+  position: absolute;
+  top: -1mm;
+  left: -1.5mm;
+  font-weight: bold;
+   
+  font-size: 36px;
+  color: #36454F;
+}
+
