@@ -342,10 +342,10 @@ body {
 
 .org-email {
   position: absolute;
-  top: 48pt;
-  left: 81pt;
-  font-style: normal;
-  font-size: 10pt;
+    top: 33pt;
+    left: 81pt;
+    font-style: normal;
+    font-size: 9pt;
 }
 
 .org-email p strong {
