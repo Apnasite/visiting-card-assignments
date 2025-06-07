@@ -1,0 +1,246 @@
+/*Reset some default styles*/
+body,
+h1,
+h2,
+h2,
+p,
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.card-wrapper{
+    position: relative;
+    width: 90mm;
+    height: 52mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden; 
+}
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+    overflow:hidden;
+}
+.rect1{
+    position: absolute;
+    top: 42mm;
+    right: 4mm;
+    height: 4mm;
+    width: 39mm;
+    transform: skewX(-57deg);
+    overflow: hidden;
+    background-color: #191717;
+}
+
+.rect2{
+    position: absolute;
+    top: 42mm;
+    left: 4mm;
+    height: 4mm;
+    width: 42mm;
+    transform: skewX(-57deg);
+    overflow: hidden;
+    background-color: #d02020;
+}
+
+.rect3{
+    position: absolute;
+    top: 42mm;
+    height: 4mm;
+    width: 8mm;
+    right: 1mm;
+    background-color: #191717;
+    overflow: hidden;
+}
+.rect4{
+    position: absolute;
+    top: 42mm;
+    left: 1mm;
+    height: 4mm;
+    width:6mm;
+    background-color: #d02020;
+    overflow: hidden;
+}
+
+.card1-content
+{
+    position: absolute;
+    right: 5mm;
+    color: rgb(17, 17, 18);
+}
+ .party-name
+ {
+
+    position: absolute;
+    top: -43mm;
+    right: 4mm;
+    font-family: "Roboto Slab", serif;
+    font-size: 14pt;
+    font-weight: bold;
+    
+  }
+  .party-job-title
+  {
+    position: absolute;
+    top: -36mm;
+    right: 26mm;
+    font-family: serif;
+    font-size: 8pt;
+  }
+  .company
+  {
+    position: absolute;
+    top: -45mm;
+    right: 54mm;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 15pt;
+  }
+  .qr-code
+  {
+    top: 4mm;
+    left: -28mm;
+    position: absolute;
+  }
+  .qr-img
+  {
+    margin-top: -66mm;
+    margin-left: -55mm;
+    max-width: 28%;
+    height: auto;
+  }
+  
+  .party-phone
+  {
+    position: relative;
+    font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 7pt;
+    /* margin-top: 1mm; */
+    top: -26mm;
+    left: -5mm;
+  }
+  .party-email
+  {
+    position: relative;
+    font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 7pt;
+    top: -25mm;
+    left: 0mm;
+  }
+
+  .party-phone-label
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+  }
+
+  .party-phone-number
+  {
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8pt;
+  }
+
+  .party-email-label
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+  }
+  .party-email-address
+ {
+    font-weight: normal;
+    font-size: 8pt;
+ }
+
+.card2-background{
+    bottom: 40mm;   
+    height:100%;
+    background-color: white;
+}
+
+.rect5{
+    position: absolute;
+    top: 10mm;
+    height: 29mm;
+    width: 7mm;
+    background-color: #d02020;
+    transform: matrix(1, 1, 0, 1, 0, 0);
+}
+
+.rect6{
+    position: absolute;
+    top: 32mm;
+    right: 0mm;
+    height: 14mm;
+    width: 7mm;
+    background-color: #d02020;
+    transform: matrix(1, 1, 0, 1, 0, 0);
+}
+
+.rect7{
+    position: absolute;
+    top: 10mm;
+    right: 0mm;
+    height: 29mm;
+    width: 7mm;
+    background-color: #d02020;
+    transform: matrix(1, -1, 0, 1, 0, 0);
+}
+
+.rect8{
+    position: absolute;
+    top: 32mm;
+    left: 0mm;
+    height: 14mm;
+    width: 7mm;
+    background-color: #d02020;
+    transform: matrix(1, -1, 0, 1, 0, 0);
+}
+.org-logo-img{
+    position: absolute;
+    top: 3mm;
+    left: 30mm;
+}
+.org-name{
+    position: absolute;
+    top: 10mm;
+    left: 1mm;
+    font-size: 13pt;
+}
+.org-address
+{
+    position: absolute;
+    top: 25mm;
+    left: 10mm;
+    font-style: normal;
+    font-size: 7pt;
+}
+.org-email
+  {
+    position: absolute;
+    top: 34mm;
+    left: 20mm;
+    font-style: normal;
+    font-size: 10pt;
+  }
+.org-phone
+  {
+    position: absolute;
+    top: 41mm;
+    left: 26mm;
+    font-style: normal;
+    font-size: 8pt;
+  }
+.org-website
+  {
+    position: absolute;
+    top: 46mm;
+    left: 27mm;
+    font-style: normal;
+    font-size: 8pt;
+  }

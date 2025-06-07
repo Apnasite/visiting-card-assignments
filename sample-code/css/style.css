@@ -74,6 +74,8 @@ body {
 
   .qr-img
   {
+    margin-top: -63mm;
+    margin-right: 54mm;
     max-width: 21%;
     height: auto;
   }
@@ -224,9 +226,6 @@ body {
     font-style: normal;
     font-size: 7pt;
   }
-
-
-
   .org-email
   {
     position: absolute;
